@@ -1,0 +1,71 @@
+
+Date: Sun Jun 21 20:48:37 2026
+
+
+conditional: false
+diagrams_file1: myresults/PPh-qqb-g-0r0v.match.yaml
+diagrams_file2: myresults/PPh-qqb-g-0r0v.match.yaml
+position1: 1
+position2: 1
+output_file: ./tmp/PPh-sq-qqb-g-0r0v.comp_1X1
+result_name: 1 X 1 from diagrams in myresults/PPh-qqb-g-0r0v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+polarization_orthogonal_vectors:
+
+
+Reading two diagrams
+Reading diagram number 1 from file myresults/PPh-qqb-g-0r0v.match.yaml
+rename negative field indices
+Reading diagram number 1 from file myresults/PPh-qqb-g-0r0v.match.yaml
+rename negative field indices
+Generating amplitudes
+  using Feynman polarizations everywhere
+Generic Feynman rule inserted for identifier in-Ghost (1): polc_ghost(fv(mom1),mass1).[a1,Na,Nc]
+Generic Feynman rule inserted for identifier in-electron (2): u(fv(mom1),mass1).0
+Generic Feynman rule inserted for identifier in-ghost (3): pol_ghost(fv(mom1),mass1).[a1,Na,Nc]
+Generic Feynman rule inserted for identifier in-gluon (4): pol_gluon(fv(mom1),mass1,fv(ortho1)).mu1.[a1,Na,Nc]
+Generic Feynman rule inserted for identifier in-photon (5): pol_photon(fv(mom1),mass1).mu1
+Generic Feynman rule inserted for identifier in-positron (6): vbar(fv(mom1),mass1).0
+Generic Feynman rule inserted for identifier in-qbar1 (7): vbar(fv(mom1),mass1).i1
+Generic Feynman rule inserted for identifier in-qbar2 (8): vbar(fv(mom1),mass1).i1
+Generic Feynman rule inserted for identifier in-quark1 (9): u(fv(mom1),mass1).i1
+Generic Feynman rule inserted for identifier in-quark2 (10): u(fv(mom1),mass1).i1
+Generic Feynman rule inserted for identifier out-Ghost (11): pol_ghost(fv(mom1),mass1).[a1,Na,Nc]
+Generic Feynman rule inserted for identifier out-electron (12): ubar(fv(mom1),mass1).0
+Generic Feynman rule inserted for identifier out-ghost (13): polc_ghost(fv(mom1),mass1).[a1,Na,Nc]
+Generic Feynman rule inserted for identifier out-gluon (14): polc_gluon(fv(mom1),mass1,fv(ortho1)).mu1.[a1,Na,Nc]
+Generic Feynman rule inserted for identifier out-photon (15): polc_photon(fv(mom1),mass1).mu1
+Generic Feynman rule inserted for identifier out-positron (16): v(fv(mom1),mass1).0
+Generic Feynman rule inserted for identifier out-qbar1 (17): v(fv(mom1),mass1).i1
+Generic Feynman rule inserted for identifier out-qbar2 (18): v(fv(mom1),mass1).i1
+Generic Feynman rule inserted for identifier out-quark1 (19): ubar(fv(mom1),mass1).i1
+Generic Feynman rule inserted for identifier out-quark2 (20): ubar(fv(mom1),mass1).i1
+Generic Feynman rule inserted for identifier electron_positron (21): I*Prop(mom1,mass1^2)*(mass1*ONE+fv(mom1)\)
+Generic Feynman rule inserted for identifier ghost_Ghost (22): I*Prop(mom1,0)*delta.[a1,Na,Nc].[a2,Na,Nc]
+Generic Feynman rule inserted for identifier gluon_gluon (23): -I*Prop(mom1,0)*eta.mu1.mu2*delta.[a1,Na,Nc].[a2,Na,Nc]
+Generic Feynman rule inserted for identifier photon_photon (24): -I*Prop(mom1,0)*eta.mu1.mu2
+Generic Feynman rule inserted for identifier quark1_qbar1 (25): I*Prop(mom1,mass1^2)*delta.i1.i2*(mass1*ONE+fv(mom1)\)
+Generic Feynman rule inserted for identifier quark2_qbar2 (26): I*Prop(mom1,mass1^2)*delta.i1.i2*(mass1*ONE+fv(mom1)\)
+Generic Feynman rule inserted for identifier Ghost_gluon_ghost (27): g*fv(mom1)~mu2*sunf.[a1,Na,Nc].[a2,Na,Nc].[a3,Na,Nc]
+Generic Feynman rule inserted for identifier gluon_gluon_gluon (28): (eta~mu2~mu3*fv(-mom3+mom2)~mu1+eta~mu1~mu3*fv(mom3-mom1)~mu2+fv(-mom2+mom1)~mu3*eta~mu1~mu2)*g*sunf.[a1,Na,Nc].[a2,Na,Nc].[a3,Na,Nc]
+Generic Feynman rule inserted for identifier gluon_gluon_gluon_gluon (29): I*(sunf.[a1,Na,Nc].[a2,Na,Nc].[symbol978,Na,Nc]*sunf.[a3,Na,Nc].[a4,Na,Nc].[symbol978,Na,Nc]*metricl4~mu1~mu4~mu2~mu3+sunf.[a1,Na,Nc].[a3,Na,Nc].[symbol979,Na,Nc]*metricl4~mu1~mu4~mu3~mu2*sunf.[a2,Na,Nc].[a4,Na,Nc].[symbol979,Na,Nc]-sunf.[a2,Na,Nc].[a3,Na,Nc].[symbol980,Na,Nc]*sunf.[a1,Na,Nc].[a4,Na,Nc].[symbol980,Na,Nc]*metricl4~mu1~mu2~mu4~mu3)*g^2
+Generic Feynman rule inserted for identifier positron_photon_electron (30): I*gamma~mu2*e
+Generic Feynman rule inserted for identifier qbar1_gluon_quark1 (31): I*g*sunt.[a2,Na,Nc].i1.i3*gamma~mu2
+Generic Feynman rule inserted for identifier qbar2_gluon_quark2 (32): I*g*sunt.[a2,Na,Nc].i1.i3*gamma~mu2
+insert polarization sum U(mom,mass,i1) * Ubar(mom,mass,i2) == (GaS(mom) + mass * GaOne(1)) * delta_f(i1,i2)
+insert polarization sum V(mom,mass,i1) * Vbar(mom,mass,i2) == (GaS(mom) - mass * GaOne(1)) * delta_f(i1,i2)
+insert polarization sum Pol_photon(mom,mass,mu1) * PolC_photon(mom,mass,mu2) == -metric_l(mu1, mu2)
+insert polarization sum Pol_ghost(mom,mass,a1) * PolC_ghost(mom,mass,a2) == I*delta_a(a1,a2)
+insert polarization sum Pol_gluon(mom,mass,mu1,a1,0) * PolC_gluon(mom,mass,mu2,a2,0) == -delta_a(a1,a2) * metric_l(mu1,mu2)
+insert polarization sum Pol_gluon(mom,mass,mu1,a1,ortho) * PolC_gluon(mom,mass,mu2,a2,ortho) == delta_a(a1,a2) * ( - metric_l(mu1,mu2) + ( Mom(mom,mu1) * Mom(ortho,mu2) + Mom(ortho,mu1) * Mom(mom,mu2) ) / SP(mom,ortho) + SP(ortho,ortho) * Mom(mom,mu1) * Mom(mom,mu2) / SP(mom,ortho)^2 )
+read key 'feynmanrules' in file './config/feynmanrules.yaml'
+Requested Feynman rule: vbar(fv(p2),0).i2
+Requested Feynman rule: I*gamma~mu4*g*sunt.[a4,Na,Nc].i2.i-1
+Requested Feynman rule: I*delta.i-1.i-2*Prop(-p2+px,0)*fv(-p2+px)\
+
+
++-------+
+| ERROR |
++-------+
+/home/user/downloads/reduze-2.6/reduze/feynmanrules.cpp:518:const GiNaC::ex& Reduze::FeynmanRules::rule(const std::string&) const:
+No Feynman rule defined for qbar1_photon_quark1
+

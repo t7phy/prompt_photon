@@ -1,0 +1,65 @@
+
+Date: Sun Jun 21 20:50:12 2026
+
+
+conditional: false
+input_files:
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_1X1
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_1X2
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_2X1
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_2X2
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_3X1
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_3X2
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_4X1
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_4X2
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_5X1
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_5X2
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_6X1
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_6X2
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_7X1
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_7X2
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_8X1
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_8X2
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_9X1
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_9X2
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_10X1
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_10X2
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_11X1
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_11X2
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_12X1
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_12X2
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_13X1
+  - ./tmp/PPh-sq-qqb-g-0r1v.comp_13X2
+output_file: myresults/PPh-sq-qqb-g-0r1v.comp
+delete_input_files: true
+
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_1X1
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_1X2
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_2X1
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_2X2
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_3X1
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_3X2
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_4X1
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_4X2
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_5X1
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_5X2
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_6X1
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_6X2
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_7X1
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_7X2
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_8X1
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_8X2
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_9X1
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_9X2
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_10X1
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_10X2
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_11X1
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_11X2
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_12X1
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_12X2
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_13X1
+Reading file ./tmp/PPh-sq-qqb-g-0r1v.comp_13X2
+Output written to myresults/PPh-sq-qqb-g-0r1v.comp
+Deleting input files
+
+Job done (total time: 0 s)

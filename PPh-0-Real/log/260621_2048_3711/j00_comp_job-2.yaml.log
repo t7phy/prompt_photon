@@ -1,0 +1,427 @@
+
+Date: Sun Jun 21 20:48:37 2026
+
+Setting up job queue from myjobs/comp_job-2.yaml
+Updating job queue dependencies
+Processing jobs in serial mode (only one MPI process)
+Inserted new job in queue: job(1): compute interferences myresults/PPh-sq-qqb-g-0r0v.comp
+Inserted new job in queue: job(2): compute interferences myresults/PPh-sq-qqb-g-0r1v.comp
+Inserted new job in queue: job(3): compute interferences myresults/PPh-sq-gqb-qb-0r0v.comp
+Inserted new job in queue: job(4): compute interferences myresults/PPh-sq-gqb-qb-0r1v.comp
+Inserted new job in queue: job(5): cat files to myresults/PPh-sq-all-0r0v.comp
+Inserted new job in queue: job(6): cat files to myresults/PPh-sq-all-0r1v.comp
+Inserted new job in queue: job(7): collect integrals in myresults/PPh-sq-all-0r1v.comp
+Inserted new job in queue: job(8): export file myresults/PPh-sq-all-0r0v.comp
+Updating job queue dependencies
+Loading uncrossed integral families from file ./config/integralfamilies.yaml
+Initialize integral family 'tree'
+Loaded integral family tree
+Initialize integral family 'box'
+Loaded integral family box
+Loaded 2 (uncrossed) integral families
+Done loading uncrossed integral families
+Divide computation into smaller jobs
+Reading diagrams from file: myresults/PPh-qqb-g-0r0v.match.yaml
+Using integral family tree (id reset to 1)
+Loading crossings from file ./sectormappings/crossings.yaml
+Crossing equivalence: '' -> ''
+using crossing x12x34 (invs: {}, mom: {p2==p1,px==p2-px+p1,p1==p2})
+using crossing x13x24 (invs: {}, mom: {p2==-px,px==-p2,p1==-p2+px-p1})
+using crossing x14x23 (invs: {}, mom: {p2==-p2+px-p1,px==-p1,p1==-px})
+using crossing x12 (invs: {u==t,t==u}, mom: {p2==p1,p1==p2})
+using crossing x123 (invs: {u==t,t==-u-t}, mom: {p2==-p2+px-p1,p1==p2})
+using crossing x1234 (invs: {u==-u-t}, mom: {p2==-p2+px-p1,px==-p1,p1==p2})
+using crossing x124 (invs: {u==-u-t,t==u}, mom: {p2==-px,px==-p1,p1==p2})
+using crossing x1243 (invs: {t==-u-t}, mom: {p2==-px,px==p2-px+p1,p1==p2})
+using crossing x13 (invs: {u==-u-t}, mom: {p1==-p2+px-p1})
+using crossing x132 (invs: {u==-u-t,t==u}, mom: {p2==p1,p1==-p2+px-p1})
+using crossing x1324 (invs: {u==t,t==u}, mom: {p2==-px,px==-p1,p1==-p2+px-p1})
+using crossing x134 (invs: {u==t,t==-u-t}, mom: {px==-p1,p1==-p2+px-p1})
+using crossing x1342 (invs: {t==-u-t}, mom: {p2==p1,px==-p2,p1==-p2+px-p1})
+using crossing x14 (invs: {t==-u-t}, mom: {px==-p1,p1==-px})
+using crossing x142 (invs: {u==t,t==-u-t}, mom: {p2==p1,px==-p2,p1==-px})
+using crossing x1423 (invs: {u==t,t==u}, mom: {p2==-p2+px-p1,px==-p2,p1==-px})
+using crossing x143 (invs: {u==-u-t,t==u}, mom: {px==p2-px+p1,p1==-px})
+using crossing x1432 (invs: {u==-u-t}, mom: {p2==p1,px==p2-px+p1,p1==-px})
+using crossing x23 (invs: {t==-u-t}, mom: {p2==-p2+px-p1})
+using crossing x234 (invs: {u==-u-t,t==u}, mom: {p2==-p2+px-p1,px==-p2})
+using crossing x24 (invs: {u==-u-t}, mom: {p2==-px,px==-p2})
+using crossing x243 (invs: {u==t,t==-u-t}, mom: {p2==-px,px==p2-px+p1})
+using crossing x34 (invs: {u==t,t==u}, mom: {px==p2-px+p1})
+Crossing equivalence: 'x34' -> 'x12'
+Crossing equivalence: 'x243' -> 'x123'
+Crossing equivalence: 'x24' -> 'x1234'
+Crossing equivalence: 'x234' -> 'x124'
+Crossing equivalence: 'x23' -> 'x1243'
+Crossing equivalence: 'x1432' -> 'x1234'
+Crossing equivalence: 'x143' -> 'x124'
+Crossing equivalence: 'x1423' -> 'x12'
+Crossing equivalence: 'x142' -> 'x123'
+Crossing equivalence: 'x14' -> 'x1243'
+Crossing equivalence: 'x1342' -> 'x1243'
+Crossing equivalence: 'x134' -> 'x123'
+Crossing equivalence: 'x1324' -> 'x12'
+Crossing equivalence: 'x132' -> 'x124'
+Crossing equivalence: 'x13' -> 'x1234'
+Crossing equivalence: 'x1243' -> 'x1243'
+Crossing equivalence: 'x124' -> 'x124'
+Crossing equivalence: 'x1234' -> 'x1234'
+Crossing equivalence: 'x123' -> 'x123'
+Crossing equivalence: 'x12' -> 'x12'
+Crossing equivalence: 'x14x23' -> ''
+Crossing equivalence: 'x13x24' -> ''
+Crossing equivalence: 'x12x34' -> ''
+Crossing equivalence: '' -> ''
+Loaded crossings for kinematics ''
+Loaded crossings for 1 kinematics
+Done loading crossings
+  generated crossed integral family treex12x34 (id set to 2)
+  generated crossed integral family treex13x24 (id set to 3)
+  generated crossed integral family treex14x23 (id set to 4)
+  generated crossed integral family treex12 (id set to 5)
+  generated crossed integral family treex123 (id set to 6)
+  generated crossed integral family treex1234 (id set to 7)
+  generated crossed integral family treex124 (id set to 8)
+  generated crossed integral family treex1243 (id set to 9)
+  generated crossed integral family treex13 (id set to 10)
+  generated crossed integral family treex132 (id set to 11)
+  generated crossed integral family treex1324 (id set to 12)
+  generated crossed integral family treex134 (id set to 13)
+  generated crossed integral family treex1342 (id set to 14)
+  generated crossed integral family treex14 (id set to 15)
+  generated crossed integral family treex142 (id set to 16)
+  generated crossed integral family treex1423 (id set to 17)
+  generated crossed integral family treex143 (id set to 18)
+  generated crossed integral family treex1432 (id set to 19)
+  generated crossed integral family treex23 (id set to 20)
+  generated crossed integral family treex234 (id set to 21)
+  generated crossed integral family treex24 (id set to 22)
+  generated crossed integral family treex243 (id set to 23)
+  generated crossed integral family treex34 (id set to 24)
+Using integral family box (id reset to 25)
+  generated crossed integral family boxx12x34 (id set to 26)
+  generated crossed integral family boxx13x24 (id set to 27)
+  generated crossed integral family boxx14x23 (id set to 28)
+  generated crossed integral family boxx12 (id set to 29)
+  generated crossed integral family boxx123 (id set to 30)
+  generated crossed integral family boxx1234 (id set to 31)
+  generated crossed integral family boxx124 (id set to 32)
+  generated crossed integral family boxx1243 (id set to 33)
+  generated crossed integral family boxx13 (id set to 34)
+  generated crossed integral family boxx132 (id set to 35)
+  generated crossed integral family boxx1324 (id set to 36)
+  generated crossed integral family boxx134 (id set to 37)
+  generated crossed integral family boxx1342 (id set to 38)
+  generated crossed integral family boxx14 (id set to 39)
+  generated crossed integral family boxx142 (id set to 40)
+  generated crossed integral family boxx1423 (id set to 41)
+  generated crossed integral family boxx143 (id set to 42)
+  generated crossed integral family boxx1432 (id set to 43)
+  generated crossed integral family boxx23 (id set to 44)
+  generated crossed integral family boxx234 (id set to 45)
+  generated crossed integral family boxx24 (id set to 46)
+  generated crossed integral family boxx243 (id set to 47)
+  generated crossed integral family boxx34 (id set to 48)
+Done loading integral families
+rename negative field indices
+Loaded diagram 1
+rename negative field indices
+Loaded diagram 2
+Diagrams loaded. Time: 0.0322102s
+Reading diagrams from file: myresults/PPh-qqb-g-0r0v.match.yaml
+rename negative field indices
+Loaded diagram 1
+rename negative field indices
+Loaded diagram 2
+Diagrams loaded. Time: 0.00135807s
+New job for ./tmp/PPh-sq-qqb-g-0r0v.comp_1X1
+New job for ./tmp/PPh-sq-qqb-g-0r0v.comp_1X2
+New job for ./tmp/PPh-sq-qqb-g-0r0v.comp_2X1
+New job for ./tmp/PPh-sq-qqb-g-0r0v.comp_2X2
+Number of interferences to be calculated : 4
+Inserted new job in queue: job(9): cat files to myresults/PPh-sq-qqb-g-0r0v.comp
+Inserted new job in queue: job(10): compute interference 2 X 2 from diagrams in myresults/PPh-qqb-g-0r0v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(11): compute interference 2 X 1 from diagrams in myresults/PPh-qqb-g-0r0v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(12): compute interference 1 X 2 from diagrams in myresults/PPh-qqb-g-0r0v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(13): compute interference 1 X 1 from diagrams in myresults/PPh-qqb-g-0r0v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Divide computation into smaller jobs
+Reading diagrams from file: myresults/PPh-qqb-g-0r1v.match.yaml
+rename negative field indices
+Loaded diagram 1
+rename negative field indices
+Loaded diagram 2
+rename negative field indices
+Loaded diagram 3
+rename negative field indices
+Loaded diagram 4
+rename negative field indices
+Loaded diagram 5
+rename negative field indices
+Loaded diagram 6
+rename negative field indices
+Loaded diagram 7
+rename negative field indices
+Loaded diagram 8
+rename negative field indices
+Loaded diagram 9
+rename negative field indices
+Loaded diagram 10
+rename negative field indices
+Loaded diagram 11
+rename negative field indices
+Loaded diagram 12
+rename negative field indices
+Loaded diagram 13
+Diagrams loaded. Time: 0.0117049s
+Reading diagrams from file: myresults/PPh-qqb-g-0r0v.match.yaml
+rename negative field indices
+Loaded diagram 1
+rename negative field indices
+Loaded diagram 2
+Diagrams loaded. Time: 0.00167899s
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_1X1
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_1X2
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_2X1
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_2X2
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_3X1
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_3X2
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_4X1
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_4X2
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_5X1
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_5X2
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_6X1
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_6X2
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_7X1
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_7X2
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_8X1
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_8X2
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_9X1
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_9X2
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_10X1
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_10X2
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_11X1
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_11X2
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_12X1
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_12X2
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_13X1
+New job for ./tmp/PPh-sq-qqb-g-0r1v.comp_13X2
+Number of interferences to be calculated : 26
+Inserted new job in queue: job(14): cat files to myresults/PPh-sq-qqb-g-0r1v.comp
+Inserted new job in queue: job(15): compute interference 13 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(16): compute interference 13 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(17): compute interference 12 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(18): compute interference 12 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(19): compute interference 11 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(20): compute interference 11 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(21): compute interference 10 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(22): compute interference 10 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(23): compute interference 9 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(24): compute interference 9 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(25): compute interference 8 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(26): compute interference 8 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(27): compute interference 7 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(28): compute interference 7 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(29): compute interference 6 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(30): compute interference 6 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(31): compute interference 5 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(32): compute interference 5 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(33): compute interference 4 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(34): compute interference 4 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(35): compute interference 3 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(36): compute interference 3 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(37): compute interference 2 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(38): compute interference 2 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(39): compute interference 1 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Inserted new job in queue: job(40): compute interference 1 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+Divide computation into smaller jobs
+Reading diagrams from file: myresults/PPh-gqb-qb-0r0v.match.yaml
+rename negative field indices
+Loaded diagram 1
+rename negative field indices
+Loaded diagram 2
+Diagrams loaded. Time: 0.00121119s
+Reading diagrams from file: myresults/PPh-gqb-qb-0r0v.match.yaml
+rename negative field indices
+Loaded diagram 1
+rename negative field indices
+Loaded diagram 2
+Diagrams loaded. Time: 0.00123595s
+New job for ./tmp/PPh-sq-gqb-qb-0r0v.comp_1X1
+New job for ./tmp/PPh-sq-gqb-qb-0r0v.comp_1X2
+New job for ./tmp/PPh-sq-gqb-qb-0r0v.comp_2X1
+New job for ./tmp/PPh-sq-gqb-qb-0r0v.comp_2X2
+Number of interferences to be calculated : 4
+Inserted new job in queue: job(41): cat files to myresults/PPh-sq-gqb-qb-0r0v.comp
+Inserted new job in queue: job(42): compute interference 2 X 2 from diagrams in myresults/PPh-gqb-qb-0r0v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(43): compute interference 2 X 1 from diagrams in myresults/PPh-gqb-qb-0r0v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(44): compute interference 1 X 2 from diagrams in myresults/PPh-gqb-qb-0r0v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(45): compute interference 1 X 1 from diagrams in myresults/PPh-gqb-qb-0r0v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Divide computation into smaller jobs
+Reading diagrams from file: myresults/PPh-gqb-qb-0r1v.match.yaml
+rename negative field indices
+Loaded diagram 1
+rename negative field indices
+Loaded diagram 2
+rename negative field indices
+Loaded diagram 3
+rename negative field indices
+Loaded diagram 4
+rename negative field indices
+Loaded diagram 5
+rename negative field indices
+Loaded diagram 6
+rename negative field indices
+Loaded diagram 7
+rename negative field indices
+Loaded diagram 8
+rename negative field indices
+Loaded diagram 9
+rename negative field indices
+Loaded diagram 10
+rename negative field indices
+Loaded diagram 11
+rename negative field indices
+Loaded diagram 12
+rename negative field indices
+Loaded diagram 13
+Diagrams loaded. Time: 0.0140323s
+Reading diagrams from file: myresults/PPh-gqb-qb-0r0v.match.yaml
+rename negative field indices
+Loaded diagram 1
+rename negative field indices
+Loaded diagram 2
+Diagrams loaded. Time: 0.00179771s
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_1X1
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_1X2
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_2X1
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_2X2
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_3X1
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_3X2
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_4X1
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_4X2
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_5X1
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_5X2
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_6X1
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_6X2
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_7X1
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_7X2
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_8X1
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_8X2
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_9X1
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_9X2
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_10X1
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_10X2
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_11X1
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_11X2
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_12X1
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_12X2
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_13X1
+New job for ./tmp/PPh-sq-gqb-qb-0r1v.comp_13X2
+Number of interferences to be calculated : 26
+Inserted new job in queue: job(46): cat files to myresults/PPh-sq-gqb-qb-0r1v.comp
+Inserted new job in queue: job(47): compute interference 13 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(48): compute interference 13 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(49): compute interference 12 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(50): compute interference 12 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(51): compute interference 11 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(52): compute interference 11 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(53): compute interference 10 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(54): compute interference 10 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(55): compute interference 9 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(56): compute interference 9 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(57): compute interference 8 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(58): compute interference 8 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(59): compute interference 7 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(60): compute interference 7 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(61): compute interference 6 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(62): compute interference 6 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(63): compute interference 5 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(64): compute interference 5 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(65): compute interference 4 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(66): compute interference 4 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(67): compute interference 3 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(68): compute interference 3 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(69): compute interference 2 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(70): compute interference 2 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(71): compute interference 1 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Inserted new job in queue: job(72): compute interference 1 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+Updated job queue:
+  [p] job(13): compute interference 1 X 1 from diagrams in myresults/PPh-qqb-g-0r0v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(12): compute interference 1 X 2 from diagrams in myresults/PPh-qqb-g-0r0v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(11): compute interference 2 X 1 from diagrams in myresults/PPh-qqb-g-0r0v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(10): compute interference 2 X 2 from diagrams in myresults/PPh-qqb-g-0r0v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(9):  cat files to myresults/PPh-sq-qqb-g-0r0v.comp  [dep: 10,11,12,13]
+  [p] job(1):  compute interferences myresults/PPh-sq-qqb-g-0r0v.comp  [dep: 9]
+  [p] job(40): compute interference 1 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(39): compute interference 1 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(38): compute interference 2 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(37): compute interference 2 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(36): compute interference 3 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(35): compute interference 3 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(34): compute interference 4 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(33): compute interference 4 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(32): compute interference 5 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(31): compute interference 5 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(30): compute interference 6 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(29): compute interference 6 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(28): compute interference 7 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(27): compute interference 7 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(26): compute interference 8 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(25): compute interference 8 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(24): compute interference 9 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(23): compute interference 9 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(22): compute interference 10 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(21): compute interference 10 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(20): compute interference 11 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(19): compute interference 11 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(18): compute interference 12 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(17): compute interference 12 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(16): compute interference 13 X 1 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(15): compute interference 13 X 2 from diagrams in myresults/PPh-qqb-g-0r1v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml  [dep: ]
+  [p] job(14): cat files to myresults/PPh-sq-qqb-g-0r1v.comp  [dep: 15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40]
+  [p] job(2):  compute interferences myresults/PPh-sq-qqb-g-0r1v.comp  [dep: 14]
+  [p] job(45): compute interference 1 X 1 from diagrams in myresults/PPh-gqb-qb-0r0v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(44): compute interference 1 X 2 from diagrams in myresults/PPh-gqb-qb-0r0v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(43): compute interference 2 X 1 from diagrams in myresults/PPh-gqb-qb-0r0v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(42): compute interference 2 X 2 from diagrams in myresults/PPh-gqb-qb-0r0v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(41): cat files to myresults/PPh-sq-gqb-qb-0r0v.comp  [dep: 42,43,44,45]
+  [p] job(3):  compute interferences myresults/PPh-sq-gqb-qb-0r0v.comp  [dep: 41]
+  [p] job(72): compute interference 1 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(71): compute interference 1 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(70): compute interference 2 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(69): compute interference 2 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(68): compute interference 3 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(67): compute interference 3 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(66): compute interference 4 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(65): compute interference 4 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(64): compute interference 5 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(63): compute interference 5 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(62): compute interference 6 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(61): compute interference 6 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(60): compute interference 7 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(59): compute interference 7 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(58): compute interference 8 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(57): compute interference 8 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(56): compute interference 9 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(55): compute interference 9 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(54): compute interference 10 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(53): compute interference 10 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(52): compute interference 11 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(51): compute interference 11 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(50): compute interference 12 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(49): compute interference 12 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(48): compute interference 13 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(47): compute interference 13 X 2 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml  [dep: ]
+  [p] job(46): cat files to myresults/PPh-sq-gqb-qb-0r1v.comp  [dep: 47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72]
+  [p] job(4):  compute interferences myresults/PPh-sq-gqb-qb-0r1v.comp  [dep: 46]
+  [p] job(5):  cat files to myresults/PPh-sq-all-0r0v.comp  [dep: 9,41]
+  [p] job(6):  cat files to myresults/PPh-sq-all-0r1v.comp  [dep: 14,46]
+  [p] job(7):  collect integrals in myresults/PPh-sq-all-0r1v.comp  [dep: 6]
+  [p] job(8):  export file myresults/PPh-sq-all-0r0v.comp  [dep: 5]
+
+
+Date: Sun Jun 21 20:48:37 2026
+
+Run ID: 7e147f7f
+
+Starting job(13): compute interference 1 X 1 from diagrams in myresults/PPh-qqb-g-0r0v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml

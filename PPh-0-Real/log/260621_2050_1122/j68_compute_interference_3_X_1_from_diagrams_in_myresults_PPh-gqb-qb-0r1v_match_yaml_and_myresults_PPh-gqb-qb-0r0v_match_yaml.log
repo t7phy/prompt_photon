@@ -1,0 +1,90 @@
+
+Date: Sun Jun 21 20:50:12 2026
+
+
+conditional: false
+diagrams_file1: myresults/PPh-gqb-qb-0r1v.match.yaml
+diagrams_file2: myresults/PPh-gqb-qb-0r0v.match.yaml
+position1: 3
+position2: 1
+output_file: ./tmp/PPh-sq-gqb-qb-0r1v.comp_3X1
+result_name: 3 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+polarization_orthogonal_vectors:
+
+
+Reading two diagrams
+Reading diagram number 3 from file myresults/PPh-gqb-qb-0r1v.match.yaml
+rename negative field indices
+Reading diagram number 1 from file myresults/PPh-gqb-qb-0r0v.match.yaml
+rename negative field indices
+Generating amplitudes
+  using Feynman polarizations everywhere
+Requested Feynman rule: vbar(fv(p2),0).i2
+Requested Feynman rule: I*gamma~mu1*sunt.[a1,Na,Nc].i2.i-1*g
+Requested Feynman rule: I*fv(-p2-p1)\*Prop(-p2-p1,0)*delta.i-1.i-2
+Requested Feynman rule: I*sunt.[a-8,Na,Nc].i-2.i-5*gamma~mu-8*g
+Requested Feynman rule: I*Prop(-l,0)*fv(-l)\*delta.i-6.i-5
+Requested Feynman rule: I*delta.i-3.i-6*e*gamma~mu3
+Requested Feynman rule: I*Prop(p2-px+p1-l,0)*delta.i-4.i-3*fv(p2-px+p1-l)\
+Requested Feynman rule: I*gamma~mu-7*sunt.[a-7,Na,Nc].i-4.i4*g
+Requested Feynman rule: v(fv(px),0).i4
+Requested Feynman rule: -I*delta.[a-8,Na,Nc].[a-7,Na,Nc]*Prop(p2+p1-l,0)*eta.mu-7.mu-8
+Requested Feynman rule: polc_photon(fv(p2-px+p1),0).mu3
+Requested Feynman rule: pol_gluon(fv(p1),0,fv(0)).mu1.[a1,Na,Nc]
+Requested Feynman rule: vbar(fv(p2),0).i2
+Requested Feynman rule: I*gamma~mu1*sunt.[a1,Na,Nc].i2.i-1*g
+Requested Feynman rule: I*fv(-p2-p1)\*Prop(-p2-p1,0)*delta.i-1.i-2
+Requested Feynman rule: I*e*gamma~mu3*delta.i-2.i4
+Requested Feynman rule: v(fv(px),0).i4
+Requested Feynman rule: polc_photon(fv(p2-px+p1),0).mu3
+Requested Feynman rule: pol_gluon(fv(p1),0,fv(0)).mu1.[a1,Na,Nc]
+Multiplying amplitudes
+First amplitude:
+Amplitude 3
+Open fermion lines:
+Line: 0
+vbar(fv(p2),0).i2 * -I*Prop(-l,0)*delta.i-3.i-6*sunt.[a-8,Na,Nc].i-2.i-5*e*Prop(-p2-p1,0)*delta.i-1.i-2*Prop(p2-px+p1-l,0)*delta.i-4.i-3*(gamma~mu1*fv(-p2-p1)\*gamma~mu-8*fv(-l)\*gamma~mu3*fv(p2-px+p1-l)\*gamma~mu-7)*sunt.[a-7,Na,Nc].i-4.i4*sunt.[a1,Na,Nc].i2.i-1*g^3*delta.i-6.i-5 * v(fv(px),0).i4
+Closed fermion lines:
+External:
+[polc_photon(fv(p2-px+p1),0).mu3,pol_gluon(fv(p1),0,fv(0)).mu1.[a1,Na,Nc]]
+Remaining Term:
+I*delta.[a-8,Na,Nc].[a-7,Na,Nc]*Prop(p2+p1-l,0)*eta.mu-7.mu-8
+
+Second amplitude (already conjugated):
+Amplitude 1
+Open fermion lines:
+Line: 0
+vbar(fv(px),0).symbol10320 * I*(gamma~symbol10325*fv(-p2-p1)\*gamma~symbol10323)*e*Prop(-p2-p1,0)*delta.symbol10320.symbol10316*delta.symbol10316.symbol10315*g*sunt.[symbol10311,Na,Nc].symbol10315.symbol10318 * v(fv(p2),0).symbol10318
+Closed fermion lines:
+External:
+[polc_gluon(fv(p1),0,fv(0)).symbol10323.[symbol10311,Na,Nc],pol_photon(fv(p2-px+p1),0).symbol10325]
+Remaining Term:
+-1
+
+using Feynman gluon polarization sum for pol_gluon(fv(p1),0,fv(0)).mu1.[a1,Na,Nc]*polc_gluon(fv(p1),0,fv(0)).symbol10323.[symbol10311,Na,Nc]
+Calculation of Amplitude 3_X_1 requested
+ * Extracting scalar prefactor
+   found scalar prefactor: -I*Prop(p2-px+p1-l,0)*e^2*Prop(-p2-p1,0)^2*Prop(-l,0)*Prop(p2+p1-l,0)*g^4
+ * Calculating the Color structure
+color: delta.[a-8,Na,Nc].[a-7,Na,Nc]*delta.i-3.i-6*delta.i2.symbol10318*delta.[symbol10311,Na,Nc].[a1,Na,Nc]*sunt.[a-8,Na,Nc].i-2.i-5*eta.symbol10323.mu1*delta.i-1.i-2*delta.symbol10320.symbol10316*delta.i-4.i-3*delta.i4.symbol10320*eta.mu-7.mu-8*delta.symbol10316.symbol10315*eta.symbol10325.mu3*sunt.[a-7,Na,Nc].i-4.i4*sunt.[a1,Na,Nc].i2.i-1*delta.i-6.i-5*sunt.[symbol10311,Na,Nc].symbol10315.symbol10318
+ * Color structures: 
+<Color({sunt.[symbol10311,Na,Nc].symbol10320.symbol10318,sunt.[a-7,Na,Nc].i-3.symbol10320,sunt.[symbol10311,Na,Nc].symbol10318.i-1,sunt.[a-7,Na,Nc].i-1.i-3})>
+number 1
+   color result (degree Nc^3): Color({sunt.[symbol10311,Na,Nc].symbol10320.symbol10318,sunt.[a-7,Na,Nc].i-3.symbol10320,sunt.[symbol10311,Na,Nc].symbol10318.i-1,sunt.[a-7,Na,Nc].i-1.i-3}) == 1/4*Color(Nc^(-1)*(-1+Nc)^2*(1+Nc)^2)
+ * Color structure calculated! Time: 0.0007s
+   Color order: Nc^3
+ * Calculating the Dirac traces
+   performing 1 Dirac trace(s)
+   1 sub trace(s): . time: 0.04 s
+
+ * Dirac traces calculated! Time: 0.04s
+ * Contracting remaining Lorentz indices
+ * Lorentz indices contracted! Time: 0.0005s
+ * Replacing scalarproducts by invariants and propagators
+   SP: {SP(px,l)==-1/2*t-1/2*Prop(p2+p1-l,0)^(-1)-1/2*u+1/2*Prop(p2-px+p1-l,0)^(-1),SP(p1,l)==1/2*Prop(l,0)^(-1)-1/2*Prop(p1-l,0)^(-1),SP(p2,l)==-1/2*t+1/2*Prop(p1-l,0)^(-1)-1/2*Prop(p2+p1-l,0)^(-1)-1/2*u,SP(l,l)==Prop(l,0)^(-1)}
+ * Matching integrals
+ * Scalar products replaced, integrals matched! Time: 0.004s
+ * Collecting common factors
+ * Common factors collected ! Time: 0.004s
+
+Job done (total time: 0 s)

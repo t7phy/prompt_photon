@@ -1,0 +1,90 @@
+
+Date: Sun Jun 21 20:50:12 2026
+
+
+conditional: false
+diagrams_file1: myresults/PPh-gqb-qb-0r1v.match.yaml
+diagrams_file2: myresults/PPh-gqb-qb-0r0v.match.yaml
+position1: 5
+position2: 1
+output_file: ./tmp/PPh-sq-gqb-qb-0r1v.comp_5X1
+result_name: 5 X 1 from diagrams in myresults/PPh-gqb-qb-0r1v.match.yaml and myresults/PPh-gqb-qb-0r0v.match.yaml
+polarization_orthogonal_vectors:
+
+
+Reading two diagrams
+Reading diagram number 5 from file myresults/PPh-gqb-qb-0r1v.match.yaml
+rename negative field indices
+Reading diagram number 1 from file myresults/PPh-gqb-qb-0r0v.match.yaml
+rename negative field indices
+Generating amplitudes
+  using Feynman polarizations everywhere
+Requested Feynman rule: vbar(fv(p2),0).i2
+Requested Feynman rule: I*e*gamma~mu3*delta.i-1.i2
+Requested Feynman rule: I*delta.i-2.i-1*Prop(-px+p1,0)*fv(-px+p1)\
+Requested Feynman rule: I*sunt.[a-8,Na,Nc].i-2.i-5*gamma~mu-8*g
+Requested Feynman rule: I*fv(-l)\*Prop(-l,0)*delta.i-5.i-6
+Requested Feynman rule: I*gamma~mu1*sunt.[a1,Na,Nc].i-6.i-3*g
+Requested Feynman rule: I*fv(-l-p1)\*delta.i-3.i-4*Prop(-l-p1,0)
+Requested Feynman rule: I*gamma~mu-7*sunt.[a-7,Na,Nc].i-4.i4*g
+Requested Feynman rule: v(fv(px),0).i4
+Requested Feynman rule: -I*Prop(px-l-p1,0)*eta.mu-8.mu-7*delta.[a-7,Na,Nc].[a-8,Na,Nc]
+Requested Feynman rule: polc_photon(fv(p2-px+p1),0).mu3
+Requested Feynman rule: pol_gluon(fv(p1),0,fv(0)).mu1.[a1,Na,Nc]
+Requested Feynman rule: vbar(fv(p2),0).i2
+Requested Feynman rule: I*sunt.[a1,Na,Nc].i2.i-1*gamma~mu1*g
+Requested Feynman rule: I*fv(-p2-p1)\*Prop(-p2-p1,0)*delta.i-1.i-2
+Requested Feynman rule: I*gamma~mu3*e*delta.i4.i-2
+Requested Feynman rule: v(fv(px),0).i4
+Requested Feynman rule: polc_photon(fv(p2-px+p1),0).mu3
+Requested Feynman rule: pol_gluon(fv(p1),0,fv(0)).mu1.[a1,Na,Nc]
+Multiplying amplitudes
+First amplitude:
+Amplitude 5
+Open fermion lines:
+Line: 0
+vbar(fv(p2),0).i2 * -I*delta.i-2.i-1*e*delta.i-3.i-4*sunt.[a-7,Na,Nc].i-4.i4*Prop(-px+p1,0)*Prop(-l,0)*delta.i-5.i-6*(gamma~mu3*fv(-px+p1)\*gamma~mu-8*fv(-l)\*gamma~mu1*fv(-l-p1)\*gamma~mu-7)*sunt.[a-8,Na,Nc].i-2.i-5*delta.i-1.i2*sunt.[a1,Na,Nc].i-6.i-3*g^3*Prop(-l-p1,0) * v(fv(px),0).i4
+Closed fermion lines:
+External:
+[polc_photon(fv(p2-px+p1),0).mu3,pol_gluon(fv(p1),0,fv(0)).mu1.[a1,Na,Nc]]
+Remaining Term:
+I*Prop(px-l-p1,0)*eta.mu-8.mu-7*delta.[a-7,Na,Nc].[a-8,Na,Nc]
+
+Second amplitude (already conjugated):
+Amplitude 1
+Open fermion lines:
+Line: 0
+vbar(fv(px),0).symbol11632 * I*e*Prop(-p2-p1,0)*(gamma~symbol11637*fv(-p2-p1)\*gamma~symbol11635)*delta.symbol11628.symbol11627*sunt.[symbol11623,Na,Nc].symbol11627.symbol11630*delta.symbol11632.symbol11628*g * v(fv(p2),0).symbol11630
+Closed fermion lines:
+External:
+[polc_gluon(fv(p1),0,fv(0)).symbol11635.[symbol11623,Na,Nc],pol_photon(fv(p2-px+p1),0).symbol11637]
+Remaining Term:
+-1
+
+using Feynman gluon polarization sum for pol_gluon(fv(p1),0,fv(0)).mu1.[a1,Na,Nc]*polc_gluon(fv(p1),0,fv(0)).symbol11635.[symbol11623,Na,Nc]
+Calculation of Amplitude 5_X_1 requested
+ * Extracting scalar prefactor
+   found scalar prefactor: -I*Prop(px-p1-l,0)*e^2*Prop(-p2-p1,0)*Prop(-l,0)*Prop(-px+p1,0)*g^4*Prop(-p1-l,0)
+ * Calculating the Color structure
+color: delta.symbol11630.i2*delta.i-2.i-1*delta.symbol11628.symbol11627*delta.i-3.i-4*sunt.[a-7,Na,Nc].i-4.i4*eta.mu-8.mu-7*delta.[symbol11623,Na,Nc].[a1,Na,Nc]*delta.i-5.i-6*delta.symbol11632.i4*eta.mu1.symbol11635*eta.symbol11637.mu3*sunt.[symbol11623,Na,Nc].symbol11627.symbol11630*sunt.[a-8,Na,Nc].i-2.i-5*delta.i-1.i2*delta.[a-7,Na,Nc].[a-8,Na,Nc]*sunt.[a1,Na,Nc].i-6.i-3*delta.symbol11632.symbol11628
+ * Color structures: 
+<Color({sunt.[a-8,Na,Nc].i-1.i-6,sunt.[a1,Na,Nc].symbol11628.i-1,sunt.[a1,Na,Nc].i-6.i-3,sunt.[a-8,Na,Nc].i-3.symbol11628})>
+number 1
+   color result (degree Nc^1): Color({sunt.[a-8,Na,Nc].i-1.i-6,sunt.[a1,Na,Nc].symbol11628.i-1,sunt.[a1,Na,Nc].i-6.i-3,sunt.[a-8,Na,Nc].i-3.symbol11628}) == -1/4*Color(Nc^(-1)*(-1+Nc)*(1+Nc))
+ * Color structure calculated! Time: 0.0005s
+   Color order: Nc^1
+ * Calculating the Dirac traces
+   performing 1 Dirac trace(s)
+   1 sub trace(s): . time: 0.04 s
+
+ * Dirac traces calculated! Time: 0.04s
+ * Contracting remaining Lorentz indices
+ * Lorentz indices contracted! Time: 0.0008s
+ * Replacing scalarproducts by invariants and propagators
+   SP: {SP(px,l)==1/2*Prop(p1+l,0)^(-1)+1/2*u-1/2*Prop(-px+p1+l,0)^(-1),SP(p1,l)==-1/2*Prop(l,0)^(-1)+1/2*Prop(p1+l,0)^(-1),SP(p2,l)==1/2*Prop(l,0)^(-1)-1/2*Prop(p2-l,0)^(-1),SP(l,l)==Prop(l,0)^(-1)}
+ * Matching integrals
+ * Scalar products replaced, integrals matched! Time: 0.004s
+ * Collecting common factors
+ * Common factors collected ! Time: 0.004s
+
+Job done (total time: 0 s)

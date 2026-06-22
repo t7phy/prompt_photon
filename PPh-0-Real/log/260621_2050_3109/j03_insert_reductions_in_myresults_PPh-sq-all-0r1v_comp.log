@@ -1,0 +1,574 @@
+
+Date: Sun Jun 21 20:50:31 2026
+
+
+conditional: false
+input_file: myresults/PPh-sq-all-0r1v.comp
+reductions_file: mytmp/PPh-sq-all-0r1v.red.amp
+preferred_masters_file: ""
+output_file: mytmp/PPh-sq-all-0r1v.red
+
+Checking type of input file myresults/PPh-sq-all-0r1v.comp
+=> file contains linear combinations
+Loading reductions from file mytmp/PPh-sq-all-0r1v.red.amp
+  loading 12084 bytes
+  ..................................................  No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+
+Reading file myresults/PPh-sq-all-0r1v.comp
+Processing tmpPPhsqqqbg0r1vcomp1X1
+  found 5 integrals
+  rrrrr
+  writing result
+  time to process amplitude: 0.002 s
+  time to replace integrals: 0.002 s
+
+Processing tmpPPhsqqqbg0r1vcomp1X2
+  found 5 integrals
+  rrrrr
+  writing result
+  time to process amplitude: 0.003 s
+  time to replace integrals: 0.002 s
+
+Processing tmpPPhsqqqbg0r1vcomp2X1
+  found 5 integrals
+  rr.rr
+  writing result
+  time to process amplitude: 0.002 s
+  time to replace integrals: 0.001 s
+
+Processing tmpPPhsqqqbg0r1vcomp2X2
+  found 5 integrals
+  rr.rr
+  writing result
+  time to process amplitude: 0.002 s
+  time to replace integrals: 0.001 s
+
+Processing tmpPPhsqqqbg0r1vcomp3X1
+  found 23 integrals
+  rrrrrrrrrrrrrrrrrrrrrrr
+  writing result
+  time to process amplitude: 0.01 s
+  time to replace integrals: 0.008 s
+
+Processing tmpPPhsqqqbg0r1vcomp3X2
+  found 27 integrals
+  rrrrrrrrrrrrrrrrrrrrrrrrrrr
+  writing result
+  time to process amplitude: 0.01 s
+  time to replace integrals: 0.009 s
+
+Processing tmpPPhsqqqbg0r1vcomp4X1
+  found 23 integrals
+  rrrrrrrrrrrrrrrrrrrrrrr
+  writing result
+  time to process amplitude: 0.009 s
+  time to replace integrals: 0.007 s
+
+Processing tmpPPhsqqqbg0r1vcomp4X2
+  found 27 integrals
+  rrrrrrrrrrrrrrrrrrrrrrrrrrr
+  writing result
+  time to process amplitude: 0.01 s
+  time to replace integrals: 0.009 s
+
+Processing tmpPPhsqqqbg0r1vcomp5X1
+  found 9 integrals
+  rrr.rrrrr
+  writing result
+  time to process amplitude: 0.004 s
+  time to replace integrals: 0.003 s
+
+Processing tmpPPhsqqqbg0r1vcomp5X2
+  found 14 integrals
+  rrrrrr.rrrrrrr
+  writing result
+  time to process amplitude: 0.006 s
+  time to replace integrals: 0.005 s
+
+Processing tmpPPhsqqqbg0r1vcomp6X1
+  found 9 integrals
+  rrr.rrrrr
+  writing result
+  time to process amplitude: 0.004 s
+  time to replace integrals: 0.003 s
+
+Processing tmpPPhsqqqbg0r1vcomp6X2
+  found 14 integrals
+  rrrrrr.rrrrrrr
+  writing result
+  time to process amplitude: 0.006 s
+  time to replace integrals: 0.004 s
+
+Processing tmpPPhsqqqbg0r1vcomp7X1
+  found 14 integrals
+  rrrrrrrrrrrrrr
+  writing result
+  time to process amplitude: 0.006 s
+  time to replace integrals: 0.004 s
+
+Processing tmpPPhsqqqbg0r1vcomp7X2
+  found 9 integrals
+  rrrrrrrrr
+  writing result
+  time to process amplitude: 0.004 s
+  time to replace integrals: 0.003 s
+
+Processing tmpPPhsqqqbg0r1vcomp8X1
+  found 14 integrals
+  rrrrrr.rrrrrrr
+  writing result
+  time to process amplitude: 0.006 s
+  time to replace integrals: 0.004 s
+
+Processing tmpPPhsqqqbg0r1vcomp8X2
+  found 9 integrals
+  rrr.rrrrr
+  writing result
+  time to process amplitude: 0.004 s
+  time to replace integrals: 0.002 s
+
+Processing tmpPPhsqqqbg0r1vcomp9X1
+  found 14 integrals
+  rrrrrr.rrrrrrr
+  writing result
+  time to process amplitude: 0.006 s
+  time to replace integrals: 0.004 s
+
+Processing tmpPPhsqqqbg0r1vcomp9X2
+  found 9 integrals
+  rrr.rrrrr
+  writing result
+  time to process amplitude: 0.004 s
+  time to replace integrals: 0.002 s
+
+Processing tmpPPhsqqqbg0r1vcomp10X1
+  found 9 integrals
+  rrrrrrrrr
+  writing result
+  time to process amplitude: 0.004 s
+  time to replace integrals: 0.003 s
+
+Processing tmpPPhsqqqbg0r1vcomp10X2
+  found 14 integrals
+  rrrrrrrrrrrrrr
+  writing result
+  time to process amplitude: 0.006 s
+  time to replace integrals: 0.004 s
+
+Processing tmpPPhsqqqbg0r1vcomp11X1
+  found 23 integrals
+  rrrrrrrrrrrrrrrrrrrrrrr
+  writing result
+  time to process amplitude: 0.01 s
+  time to replace integrals: 0.008 s
+
+Processing tmpPPhsqqqbg0r1vcomp11X2
+  found 27 integrals
+  rrrrrrrrrrrrrrrrrrrrrrrrrrr
+  writing result
+  time to process amplitude: 0.01 s
+  time to replace integrals: 0.009 s
+
+Processing tmpPPhsqqqbg0r1vcomp12X1
+  found 27 integrals
+  rrrrr.rrrrrrrrrrrrrrrrrrrr.
+  writing result
+  time to process amplitude: 0.01 s
+  time to replace integrals: 0.007 s
+
+Processing tmpPPhsqqqbg0r1vcomp12X2
+  found 23 integrals
+  rrrrr.rrrrrrrrrrrrrrrr.
+  writing result
+  time to process amplitude: 0.009 s
+  time to replace integrals: 0.007 s
+
+Processing tmpPPhsqqqbg0r1vcomp13X1
+  found 23 integrals
+  rrrrrrrrrrrrrrrrrrrrrrr
+  writing result
+  time to process amplitude: 0.01 s
+  time to replace integrals: 0.007 s
+
+Processing tmpPPhsqqqbg0r1vcomp13X2
+  found 23 integrals
+  rrrrrrrrrrrrrrrrrrrrrrr
+  writing result
+  time to process amplitude: 0.009 s
+  time to replace integrals: 0.007 s
+
+Processing tmpPPhsqgqbqb0r1vcomp1X1
+  found 5 integrals
+  rrrrr
+  writing result
+  time to process amplitude: 0.003 s
+  time to replace integrals: 0.002 s
+
+Processing tmpPPhsqgqbqb0r1vcomp1X2
+  found 5 integrals
+  rrrrr
+  writing result
+  time to process amplitude: 0.003 s
+  time to replace integrals: 0.002 s
+
+Processing tmpPPhsqgqbqb0r1vcomp2X1
+  found 5 integrals
+  rr.rr
+  writing result
+  time to process amplitude: 0.002 s
+  time to replace integrals: 0.001 s
+
+Processing tmpPPhsqgqbqb0r1vcomp2X2
+  found 5 integrals
+  rr.rr
+  writing result
+  time to process amplitude: 0.002 s
+  time to replace integrals: 0.001 s
+
+Processing tmpPPhsqgqbqb0r1vcomp3X1
+  found 9 integrals
+  rrrrrrrrr
+  writing result
+  time to process amplitude: 0.004 s
+  time to replace integrals: 0.003 s
+
+Processing tmpPPhsqgqbqb0r1vcomp3X2
+  found 14 integrals
+  rrrrrrrrrrrrrr
+  writing result
+  time to process amplitude: 0.008 s
+  time to replace integrals: 0.005 s
+
+Processing tmpPPhsqgqbqb0r1vcomp4X1
+  found 15 integrals
+  rrrrrrrrrrrrrrr
+  writing result
+  time to process amplitude: 0.007 s
+  time to replace integrals: 0.005 s
+
+Processing tmpPPhsqgqbqb0r1vcomp4X2
+  found 9 integrals
+  rrrrrrrrr
+  writing result
+  time to process amplitude: 0.004 s
+  time to replace integrals: 0.003 s
+
+Processing tmpPPhsqgqbqb0r1vcomp5X1
+  found 15 integrals
+  rrrrrr.rrrrrrrr
+  writing result
+  time to process amplitude: 0.007 s
+  time to replace integrals: 0.004 s
+
+Processing tmpPPhsqgqbqb0r1vcomp5X2
+  found 9 integrals
+  rrrr.rrrr
+  writing result
+  time to process amplitude: 0.004 s
+  time to replace integrals: 0.003 s
+
+Processing tmpPPhsqgqbqb0r1vcomp6X1
+  found 15 integrals
+  rrrrrr.rrrrrrrr
+  writing result
+  time to process amplitude: 0.007 s
+  time to replace integrals: 0.005 s
+
+Processing tmpPPhsqgqbqb0r1vcomp6X2
+  found 9 integrals
+  rrrr.rrrr
+  writing result
+  time to process amplitude: 0.004 s
+  time to replace integrals: 0.003 s
+
+Processing tmpPPhsqgqbqb0r1vcomp7X1
+  found 23 integrals
+  rrrrrrrrrrrrrrrrrrrrrrr
+  writing result
+  time to process amplitude: 0.01 s
+  time to replace integrals: 0.007 s
+
+Processing tmpPPhsqgqbqb0r1vcomp7X2
+  found 27 integrals
+  rrrrrrrrrrrrrrrrrrrrrrrrrrr
+  writing result
+  time to process amplitude: 0.01 s
+  time to replace integrals: 0.008 s
+
+Processing tmpPPhsqgqbqb0r1vcomp8X1
+  found 23 integrals
+  rrrrrrrrrrrrrrrrrrrrrrr
+  writing result
+  time to process amplitude: 0.01 s
+  time to replace integrals: 0.007 s
+
+Processing tmpPPhsqgqbqb0r1vcomp8X2
+  found 27 integrals
+  rrrrrrrrrrrrrrrrrrrrrrrrrrr
+  writing result
+  time to process amplitude: 0.01 s
+  time to replace integrals: 0.008 s
+
+Processing tmpPPhsqgqbqb0r1vcomp9X1
+  found 9 integrals
+  rrrrrrrrr
+  writing result
+  time to process amplitude: 0.005 s
+  time to replace integrals: 0.003 s
+
+Processing tmpPPhsqgqbqb0r1vcomp9X2
+  found 14 integrals
+  rrrrrrrrrrrrrr
+  writing result
+  time to process amplitude: 0.007 s
+  time to replace integrals: 0.004 s
+
+Processing tmpPPhsqgqbqb0r1vcomp10X1
+  found 9 integrals
+  rrrrrrrrr
+  writing result
+  time to process amplitude: 0.004 s
+  time to replace integrals: 0.003 s
+
+Processing tmpPPhsqgqbqb0r1vcomp10X2
+  found 14 integrals
+  rrrrrrrrrrrrrr
+  writing result
+  time to process amplitude: 0.006 s
+  time to replace integrals: 0.004 s
+
+Processing tmpPPhsqgqbqb0r1vcomp11X1
+  found 23 integrals
+  rrrrrrrrrrrrrrrrrrrrrrr
+  writing result
+  time to process amplitude: 0.01 s
+  time to replace integrals: 0.007 s
+
+Processing tmpPPhsqgqbqb0r1vcomp11X2
+  found 27 integrals
+  rrrrrrrrrrrrrrrrrrrrrrrrrrr
+  writing result
+  time to process amplitude: 0.01 s
+  time to replace integrals: 0.008 s
+
+Processing tmpPPhsqgqbqb0r1vcomp12X1
+  found 23 integrals
+  rrrrrr.rrrrrrrrrrrrrrr.
+  writing result
+  time to process amplitude: 0.01 s
+  time to replace integrals: 0.006 s
+
+Processing tmpPPhsqgqbqb0r1vcomp12X2
+  found 23 integrals
+  rrrrrr.rrrrrrrrrrrrrrr.
+  writing result
+  time to process amplitude: 0.01 s
+  time to replace integrals: 0.007 s
+
+Processing tmpPPhsqgqbqb0r1vcomp13X1
+  found 27 integrals
+  rrrrrrrrrrrrrrrrrrrrrrrrrrr
+  writing result
+  time to process amplitude: 0.01 s
+  time to replace integrals: 0.008 s
+
+Processing tmpPPhsqgqbqb0r1vcomp13X2
+  found 23 integrals
+  rrrrrrrrrrrrrrrrrrrrrrr
+  writing result
+  time to process amplitude: 0.01 s
+  time to replace integrals: 0.006 s
+
+
+Integrals:
+  6 different integrals remain in the result in total
+  6 of them are no known masters (unreduced)
+
+Integrals which are not known masters:
+  INT["box",2,5,2,0,{1,0,1,0}]
+  INT["boxx12",2,5,2,0,{1,0,1,0}]
+  INT["boxx1234",2,5,2,0,{1,0,1,0}]
+  INT["box",4,15,4,0,{1,1,1,1}]
+  INT["boxx12",4,15,4,0,{1,1,1,1}]
+  INT["boxx123",4,15,4,0,{1,1,1,1}]
+
+Job done (total time: 0 s)

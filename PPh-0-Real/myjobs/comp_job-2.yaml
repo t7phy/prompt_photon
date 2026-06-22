@@ -1,0 +1,52 @@
+jobs:
+
+# compute diagram interferences qq diagrams
+
+  - compute_diagram_interferences:
+      diagrams_file1: "myresults/PPh-qqb-g-0r0v.match.yaml"
+      diagrams_file2: "myresults/PPh-qqb-g-0r0v.match.yaml"
+      output_file: "myresults/PPh-sq-qqb-g-0r0v.comp"
+
+  - compute_diagram_interferences:
+      diagrams_file1: "myresults/PPh-qqb-g-0r1v.match.yaml"
+      diagrams_file2: "myresults/PPh-qqb-g-0r0v.match.yaml"
+      output_file: "myresults/PPh-sq-qqb-g-0r1v.comp"
+
+# compute diagram interferences qg diagrams 
+
+  - compute_diagram_interferences:
+      diagrams_file1: "myresults/PPh-gqb-qb-0r0v.match.yaml"
+      diagrams_file2: "myresults/PPh-gqb-qb-0r0v.match.yaml"
+      output_file: "myresults/PPh-sq-gqb-qb-0r0v.comp"
+
+  - compute_diagram_interferences:
+      diagrams_file1: "myresults/PPh-gqb-qb-0r1v.match.yaml"
+      diagrams_file2: "myresults/PPh-gqb-qb-0r0v.match.yaml"
+      output_file: "myresults/PPh-sq-gqb-qb-0r1v.comp"
+
+# concatenate all diagrams
+
+  - cat_files:
+      input_files:
+        [myresults/PPh-sq-qqb-g-0r0v.comp, myresults/PPh-sq-gqb-qb-0r0v.comp]
+      output_file: "myresults/PPh-sq-all-0r0v.comp"
+      delete_input_files: false
+
+  - cat_files:
+      input_files:
+        [myresults/PPh-sq-qqb-g-0r1v.comp, myresults/PPh-sq-gqb-qb-0r1v.comp]
+      output_file: "myresults/PPh-sq-all-0r1v.comp"
+      delete_input_files: false
+
+# collect integrals
+
+  - collect_integrals:
+      input_file: "myresults/PPh-sq-all-0r1v.comp"
+      output_file: "myresults/PPh-sq-all-0r1v.comp.integrals" 
+
+# export diagrams (only 0r0v)
+
+  - export:
+      input_file: "myresults/PPh-sq-all-0r0v.comp"
+      output_format: "mma"
+      output_file: "myresults/PPh-sq-all-0r0v.comp.mma.inc"

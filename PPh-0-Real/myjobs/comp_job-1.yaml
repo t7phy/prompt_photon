@@ -1,0 +1,26 @@
+jobs:
+  - setup_sector_mappings: {}
+
+# find diagram shift tree
+
+  - find_diagram_shifts:
+      qgraf_file: "myqgraf/PPh-qqb-g-0r0v.qgraf.yaml"
+      output_file: "myresults/PPh-qqb-g-0r0v.match.yaml"
+      info_file_form: "myresults/PPh-qqb-g-0r0v.match.info.inc"
+
+  - find_diagram_shifts:
+      qgraf_file: "myqgraf/PPh-gqb-qb-0r0v.qgraf.yaml"
+      output_file: "myresults/PPh-gqb-qb-0r0v.match.yaml"
+      info_file_form: "myresults/PPh-gqb-qb-0r0v.match.info.inc"
+
+# find diagram shift 1 loop
+
+  - find_diagram_shifts:
+      qgraf_file: "myqgraf/PPh-qqb-g-0r1v.qgraf.yaml"
+      output_file: "myresults/PPh-qqb-g-0r1v.match.yaml"
+      info_file_form: "myresults/PPh-qqb-g-0r1v.match.info.inc"
+
+  - find_diagram_shifts:
+      qgraf_file: "myqgraf/PPh-gqb-qb-0r1v.qgraf.yaml"
+      output_file: "myresults/PPh-gqb-qb-0r1v.match.yaml"
+      info_file_form: "myresults/PPh-gqb-qb-0r1v.match.info.inc"

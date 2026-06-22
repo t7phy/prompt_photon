@@ -1,0 +1,141 @@
+
+Date: Sun Jun 21 20:50:22 2026
+
+
+conditional: false
+min_workers: 1
+max_workers: 1000
+tmp_directory: ./tmp/box_4_15/
+identity_filenames:
+  - ./tmp/box_4_15/identities/identities_box_4_15_ibp_1_of_1
+subst_filenames:
+  []
+output_file: ./reductions/reduction_box_4_15
+output_file_external: ./reductions/external_box_4_15
+solutions:
+  requested_solutions:
+    - {r: [t, 5], s: [0, 4]}
+  set_subsectors_to_zero: false
+  map_on_coeff: []
+  discard_new_subsector_identities: false
+reduzer_options:
+  num_equations_per_subjob: 1
+  num_blocks_per_subjob: 1
+  only_substitute: false
+preferred_masters_file: ""
+delete_files:
+  - ./tmp/box_4_15/seeds/seeds_box_4_15_ibp
+  - ./tmp/box_4_15/identities/identities_box_4_15_ibp_1_of_1
+delete_directories:
+  - ./tmp/box_4_15/seeds/
+  - ./tmp/box_4_15/identities/
+subst_subsectors: true
+sector: [box, 15]
+
+Checking for aborted previous run
+Setting up in-memory reduction
+Determining integrals: all_ints, external_ints, helper_ints, critical_ints, discard_ints
+Find integrals in identities
+  scanning ./tmp/box_4_15/identities/identities_box_4_15_ibp_1_of_1 (0.0003s)
+Add optimal set of sub-sector substitution files
+  using ./reductions/reduction_box_3_7
+  using ./reductions/reduction_boxx1234_3_7
+Find integrals in substitutions
+  scanning ./reductions/reduction_box_3_7 (0.001s)
+  scanning ./reductions/reduction_boxx1234_3_7 (0.001s)
+Find external and helper integrals
+Find critical integrals
+Selecting border as critical integrals
+Checking 10 rs-points for border
+  on border: 4 4
+  on border: 5 0
+  on border: 5 1
+  on border: 5 2
+  on border: 5 3
+  on border: 5 4
+Initialize reduzer
+Allocated maps for data during reduction.
+Building INT translations
+Insert integrals for algorithm control:
+Insert substitutions
+  Inserting needed substitutions from ./reductions/reduction_box_3_7 to database
+  scanning 36733 bytes
+  ..................................................  **************************************************
+  file scanned (time: 0.0 s)
+  Inserting needed substitutions from ./reductions/reduction_boxx1234_3_7 to database
+  scanning 44098 bytes
+  ..................................................  **************************************************
+  file scanned (time: 0.0 s)
+Insert equations to be reduced
+  Inserting equations ./tmp/box_4_15/identities/identities_box_4_15_ibp_1_of_1 to database
+  inserting 6465 bytes to database
+  ..................................................  **************************************************
+  file loaded (time: 0.0 s)
+Starting with 9 reducible integrals
+Setup done
+Setup of reduction done (time: 0.0 s)
+Running Reduction for sector (box:4:15)
+Performing computation in serial mode
+  reduction
+  ..................................................Processed integral 1/12
+  ****Reduced block [9e-03 s]
+Processed integral 3/13
+********Last critical integral reduced
+Reduced block [1e-02 s]
+
+Reduction done !
+Writing results to ./reductions/reduction_box_4_15
+  write result
+  ..................................................  **************************************************
+  file size: 5959 Bytes
+  time unabbreviate: 0.0 s
+  time I/O:        0.0 s
+  time write tot   0.0 s (2604568 Bytes/s)
+
+Reduction done (time: 0.0 s)
+
+Cleaning up
+Analyzing reduction result
+
+Analyzing reduction file ./reductions/reduction_box_4_15
+
+Number of equations: 20
+Average coefficient length [bytes]: 13
+
+Extracting status of reduction for each r,s point
+Showing statistics for reductions found in each sector
+Number of sectors for which this file provides reductions: 1
+
+
+First table shows the following entries:
+A: Number of all integrals
+B: Number of unreduced integrals
+C: Number of different integrals
+D: Number of different unreduced integrals
+E: Identities are interreduced w.r.t. this file (.) or not (x)
+
+Second table shows different unreduced integrals in r-s diagram
+
+
+(box:4:15)        A       B       C       D       E
+......................................................
+r=4, s=0:         1       1       1       1       .
+r=5, s=0:         4       0       4       0       .
+r=6, s=0:        10       3      10       3       x
+
+(box:4:15)      s=0
+......................
+r=4:             1.
+r=5:             0.
+r=6:             3x
+
+
+Check for masters done (time: 0.0 s)
+
+Done [0 s]
+Setup:         0 s  (41 %)
+Reduction:     0 s  (52 %)
+Write/analyze: 0 s  (7 %)
+
+
+Job done (total time: 0 s)

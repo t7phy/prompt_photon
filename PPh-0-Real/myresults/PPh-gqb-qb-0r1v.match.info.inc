@@ -1,0 +1,13 @@
+id DiaMatch(01) = Sector(boxx234, 2, 5) * Shift(l1, -l, []);
+id DiaMatch(02) = Sector(box, 2, 5) * Shift(l1, -l, []);
+id DiaMatch(03) = Sector(boxx132, 3, 7) * Shift(l1, -p2+l+px-p1, []);
+id DiaMatch(04) = Sector(boxx12x34, 3, 7) * Shift(l1, p2+l, []);
+id DiaMatch(05) = Sector(box, 3, 7) * Shift(l1, l+p1, []);
+id DiaMatch(06) = Sector(box, 3, 7) * Shift(l1, l+p1, []);
+id DiaMatch(07) = Sector(boxx34, 3, 7) * Shift(l1, l+p1, []);
+id DiaMatch(08) = Sector(boxx34, 3, 7) * Shift(l1, l+p1, []);
+id DiaMatch(09) = Sector(boxx234, 3, 7) * Shift(l1, l+p1, []);
+id DiaMatch(10) = Sector(boxx234, 3, 7) * Shift(l1, l+p1, []);
+id DiaMatch(11) = Sector(boxx34, 4, 15) * Shift(l1, -l, []);
+id DiaMatch(12) = Sector(box, 4, 15) * Shift(l1, -l, []);
+id DiaMatch(13) = Sector(boxx23, 4, 15) * Shift(l1, -l, []);

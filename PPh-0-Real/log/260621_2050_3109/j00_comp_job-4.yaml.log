@@ -1,0 +1,81 @@
+
+Date: Sun Jun 21 20:50:31 2026
+
+Setting up job queue from myjobs/comp_job-4.yaml
+Updating job queue dependencies
+Processing jobs in serial mode (only one MPI process)
+Inserted new job in queue: job(1): select reductions: myresults/PPh-sq-all-0r1v.comp.integrals
+Inserted new job in queue: job(2): reduce files ./mytmp/PPh-sq-all-0r1v.prered.amp
+Inserted new job in queue: job(3): insert reductions in myresults/PPh-sq-all-0r1v.comp
+Inserted new job in queue: job(4): collect integrals in mytmp/PPh-sq-all-0r1v.red
+Inserted new job in queue: job(5): export file mytmp/PPh-sq-all-0r1v.red
+Updating job queue dependencies
+Loading uncrossed integral families from file ./config/integralfamilies.yaml
+Initialize integral family 'tree'
+Loaded integral family tree
+Initialize integral family 'box'
+Loaded integral family box
+Loaded 2 (uncrossed) integral families
+Done loading uncrossed integral families
+Inserted new job in queue: job(6): run reduction of files ./mytmp/PPh-sq-all-0r1v.prered.amp + ...
+Updated job queue:
+  [p] job(1): select reductions: myresults/PPh-sq-all-0r1v.comp.integrals  [dep: ]
+  [p] job(6): run reduction of files ./mytmp/PPh-sq-all-0r1v.prered.amp + ...  [dep: 1]
+  [p] job(2): reduce files ./mytmp/PPh-sq-all-0r1v.prered.amp  [dep: 1,6]
+  [p] job(3): insert reductions in myresults/PPh-sq-all-0r1v.comp  [dep: 2]
+  [p] job(4): collect integrals in mytmp/PPh-sq-all-0r1v.red  [dep: 3]
+  [p] job(5): export file mytmp/PPh-sq-all-0r1v.red  [dep: 3]
+
+
+Date: Sun Jun 21 20:50:31 2026
+
+Run ID: 7e14ac05
+
+Starting job(1): select reductions: myresults/PPh-sq-all-0r1v.comp.integrals
+Completed Job(1) [Time: 0s, CPU: 0s]
+Updating job queue dependencies
+
+Date: Sun Jun 21 20:50:31 2026
+
+Run ID: 7e14ac05
+
+Starting job(6): run reduction of files ./mytmp/PPh-sq-all-0r1v.prered.amp + ...
+Completed Job(6) [Time: 0s, CPU: 0s]
+Updating job queue dependencies
+
+Date: Sun Jun 21 20:50:31 2026
+
+Run ID: 7e14ac05
+
+Starting job(2): reduce files ./mytmp/PPh-sq-all-0r1v.prered.amp
+Completed Job(2) [Time: 0s, CPU: 0s]
+Updating job queue dependencies
+
+Date: Sun Jun 21 20:50:31 2026
+
+Run ID: 7e14ac05
+
+Starting job(3): insert reductions in myresults/PPh-sq-all-0r1v.comp
+Completed Job(3) [Time: 0s, CPU: 0s]
+Updating job queue dependencies
+
+Date: Sun Jun 21 20:50:31 2026
+
+Run ID: 7e14ac05
+
+Starting job(4): collect integrals in mytmp/PPh-sq-all-0r1v.red
+Completed Job(4) [Time: 0s, CPU: 0s]
+Updating job queue dependencies
+
+Date: Sun Jun 21 20:50:31 2026
+
+Run ID: 7e14ac05
+
+Starting job(5): export file mytmp/PPh-sq-all-0r1v.red
+Completed Job(5) [Time: 0s, CPU: 0s]
+Updating job queue dependencies
+Completed jobs in jobqueue
+
+Completed all jobs
+Total run time: 1 s
+Killing Fermat

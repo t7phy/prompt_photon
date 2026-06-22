@@ -1,0 +1,371 @@
+
+Date: Sun Jun 21 20:50:31 2026
+
+
+conditional: false
+input_file: myresults/PPh-sq-all-0r1v.comp.integrals
+output_file: mytmp/PPh-sq-all-0r1v.prered.amp
+notfound_file: ""
+preferred_masters_file: ""
+generate_crossed: false
+
+Finding selected integrals
+Reading integrals from file "myresults/PPh-sq-all-0r1v.comp.integrals"
+Using integral family tree (id reset to 1)
+Loading crossings from file ./sectormappings/crossings.yaml
+Crossing equivalence: '' -> ''
+using crossing x12x34 (invs: {}, mom: {p2==p1,px==p2-px+p1,p1==p2})
+using crossing x13x24 (invs: {}, mom: {p2==-px,px==-p2,p1==-p2+px-p1})
+using crossing x14x23 (invs: {}, mom: {p2==-p2+px-p1,px==-p1,p1==-px})
+using crossing x12 (invs: {u==t,t==u}, mom: {p2==p1,p1==p2})
+using crossing x123 (invs: {u==t,t==-u-t}, mom: {p2==-p2+px-p1,p1==p2})
+using crossing x1234 (invs: {u==-u-t}, mom: {p2==-p2+px-p1,px==-p1,p1==p2})
+using crossing x124 (invs: {u==-u-t,t==u}, mom: {p2==-px,px==-p1,p1==p2})
+using crossing x1243 (invs: {t==-u-t}, mom: {p2==-px,px==p2-px+p1,p1==p2})
+using crossing x13 (invs: {u==-u-t}, mom: {p1==-p2+px-p1})
+using crossing x132 (invs: {u==-u-t,t==u}, mom: {p2==p1,p1==-p2+px-p1})
+using crossing x1324 (invs: {u==t,t==u}, mom: {p2==-px,px==-p1,p1==-p2+px-p1})
+using crossing x134 (invs: {u==t,t==-u-t}, mom: {px==-p1,p1==-p2+px-p1})
+using crossing x1342 (invs: {t==-u-t}, mom: {p2==p1,px==-p2,p1==-p2+px-p1})
+using crossing x14 (invs: {t==-u-t}, mom: {px==-p1,p1==-px})
+using crossing x142 (invs: {u==t,t==-u-t}, mom: {p2==p1,px==-p2,p1==-px})
+using crossing x1423 (invs: {u==t,t==u}, mom: {p2==-p2+px-p1,px==-p2,p1==-px})
+using crossing x143 (invs: {u==-u-t,t==u}, mom: {px==p2-px+p1,p1==-px})
+using crossing x1432 (invs: {u==-u-t}, mom: {p2==p1,px==p2-px+p1,p1==-px})
+using crossing x23 (invs: {t==-u-t}, mom: {p2==-p2+px-p1})
+using crossing x234 (invs: {u==-u-t,t==u}, mom: {p2==-p2+px-p1,px==-p2})
+using crossing x24 (invs: {u==-u-t}, mom: {p2==-px,px==-p2})
+using crossing x243 (invs: {u==t,t==-u-t}, mom: {p2==-px,px==p2-px+p1})
+using crossing x34 (invs: {u==t,t==u}, mom: {px==p2-px+p1})
+Crossing equivalence: 'x34' -> 'x12'
+Crossing equivalence: 'x243' -> 'x123'
+Crossing equivalence: 'x24' -> 'x1234'
+Crossing equivalence: 'x234' -> 'x124'
+Crossing equivalence: 'x23' -> 'x1243'
+Crossing equivalence: 'x1432' -> 'x1234'
+Crossing equivalence: 'x143' -> 'x124'
+Crossing equivalence: 'x1423' -> 'x12'
+Crossing equivalence: 'x142' -> 'x123'
+Crossing equivalence: 'x14' -> 'x1243'
+Crossing equivalence: 'x1342' -> 'x1243'
+Crossing equivalence: 'x134' -> 'x123'
+Crossing equivalence: 'x1324' -> 'x12'
+Crossing equivalence: 'x132' -> 'x124'
+Crossing equivalence: 'x13' -> 'x1234'
+Crossing equivalence: 'x1243' -> 'x1243'
+Crossing equivalence: 'x124' -> 'x124'
+Crossing equivalence: 'x1234' -> 'x1234'
+Crossing equivalence: 'x123' -> 'x123'
+Crossing equivalence: 'x12' -> 'x12'
+Crossing equivalence: 'x14x23' -> ''
+Crossing equivalence: 'x13x24' -> ''
+Crossing equivalence: 'x12x34' -> ''
+Crossing equivalence: '' -> ''
+Loaded crossings for kinematics ''
+Loaded crossings for 1 kinematics
+Done loading crossings
+  generated crossed integral family treex12x34 (id set to 2)
+  generated crossed integral family treex13x24 (id set to 3)
+  generated crossed integral family treex14x23 (id set to 4)
+  generated crossed integral family treex12 (id set to 5)
+  generated crossed integral family treex123 (id set to 6)
+  generated crossed integral family treex1234 (id set to 7)
+  generated crossed integral family treex124 (id set to 8)
+  generated crossed integral family treex1243 (id set to 9)
+  generated crossed integral family treex13 (id set to 10)
+  generated crossed integral family treex132 (id set to 11)
+  generated crossed integral family treex1324 (id set to 12)
+  generated crossed integral family treex134 (id set to 13)
+  generated crossed integral family treex1342 (id set to 14)
+  generated crossed integral family treex14 (id set to 15)
+  generated crossed integral family treex142 (id set to 16)
+  generated crossed integral family treex1423 (id set to 17)
+  generated crossed integral family treex143 (id set to 18)
+  generated crossed integral family treex1432 (id set to 19)
+  generated crossed integral family treex23 (id set to 20)
+  generated crossed integral family treex234 (id set to 21)
+  generated crossed integral family treex24 (id set to 22)
+  generated crossed integral family treex243 (id set to 23)
+  generated crossed integral family treex34 (id set to 24)
+Using integral family box (id reset to 25)
+  generated crossed integral family boxx12x34 (id set to 26)
+  generated crossed integral family boxx13x24 (id set to 27)
+  generated crossed integral family boxx14x23 (id set to 28)
+  generated crossed integral family boxx12 (id set to 29)
+  generated crossed integral family boxx123 (id set to 30)
+  generated crossed integral family boxx1234 (id set to 31)
+  generated crossed integral family boxx124 (id set to 32)
+  generated crossed integral family boxx1243 (id set to 33)
+  generated crossed integral family boxx13 (id set to 34)
+  generated crossed integral family boxx132 (id set to 35)
+  generated crossed integral family boxx1324 (id set to 36)
+  generated crossed integral family boxx134 (id set to 37)
+  generated crossed integral family boxx1342 (id set to 38)
+  generated crossed integral family boxx14 (id set to 39)
+  generated crossed integral family boxx142 (id set to 40)
+  generated crossed integral family boxx1423 (id set to 41)
+  generated crossed integral family boxx143 (id set to 42)
+  generated crossed integral family boxx1432 (id set to 43)
+  generated crossed integral family boxx23 (id set to 44)
+  generated crossed integral family boxx234 (id set to 45)
+  generated crossed integral family boxx24 (id set to 46)
+  generated crossed integral family boxx243 (id set to 47)
+  generated crossed integral family boxx34 (id set to 48)
+Done loading integral families
+Solutions for 174 different integrals requested
+Finding crossing equivalences
+Opening output file 'mytmp/PPh-sq-all-0r1v.prered.amp'
+Writing shift identities
+Search shift for boxx132 0 0  0 0  0 0 0 0read key 'sectormappings' in file './sectormappings/sectormappings_box.yaml'
+Found valid sector mappings for box
+ => found shift, select red for rhs
+Search shift for boxx34 0 0  0 0  0 0 0 0 => found shift, select red for rhs
+Search shift for box 1 1  1 0  1 0 0 0 => found shift, select red for rhs
+Search shift for boxx12x34 1 1  1 0  1 0 0 0 => found shift, select red for rhs
+Search shift for boxx12 1 1  1 0  1 0 0 0 => found shift, select red for rhs
+Search shift for boxx132 1 1  1 0  1 0 0 0 => found shift, select red for rhs
+Search shift for boxx132 1 1  1 1  1 0 0 -1 => found shift, select red for rhs
+Search shift for boxx23 1 1  1 0  1 0 0 0 => found shift, select red for rhs
+Search shift for boxx234 1 1  1 0  1 0 0 0 => found shift, select red for rhs
+Search shift for boxx34 1 1  1 0  1 0 0 0 => found shift, select red for rhs
+Search shift for boxx34 1 1  1 1  1 0 0 -1 => found shift, select red for rhs
+Search shift for box 1 2  1 0  0 1 0 0 => found shift, select red for rhs
+Search shift for boxx12x34 1 2  1 0  0 1 0 0 => found shift, select red for rhs
+Search shift for boxx12 1 2  1 0  0 1 0 0 => found shift, select red for rhs
+Search shift for boxx132 1 2  1 0  0 1 0 0 => found shift, select red for rhs
+Search shift for boxx132 1 2  1 1  -1 1 0 0 => found shift, select red for rhs
+Search shift for boxx132 1 2  1 1  0 1 -1 0 => found shift, select red for rhs
+Search shift for boxx132 1 2  1 1  0 1 0 -1 => found shift, select red for rhs
+Search shift for boxx23 1 2  1 0  0 1 0 0 => found shift, select red for rhs
+Search shift for boxx234 1 2  1 0  0 1 0 0 => found shift, select red for rhs
+Search shift for boxx34 1 2  1 0  0 1 0 0 => found shift, select red for rhs
+Search shift for boxx34 1 2  1 1  -1 1 0 0 => found shift, select red for rhs
+Search shift for boxx34 1 2  1 1  0 1 -1 0 => found shift, select red for rhs
+Search shift for boxx34 1 2  1 1  0 1 0 -1 => found shift, select red for rhs
+Search shift for box 1 4  1 0  0 0 1 0 => found shift, select red for rhs
+Search shift for boxx12x34 1 4  1 0  0 0 1 0 => found shift, select red for rhs
+Search shift for boxx12 1 4  1 0  0 0 1 0 => found shift, select red for rhs
+Search shift for boxx132 1 4  1 0  0 0 1 0 => found shift, select red for rhs
+Search shift for boxx132 1 4  1 1  0 0 1 -1 => found shift, select red for rhs
+Search shift for boxx23 1 4  1 0  0 0 1 0 => found shift, select red for rhs
+Search shift for boxx234 1 4  1 0  0 0 1 0 => found shift, select red for rhs
+Search shift for boxx34 1 4  1 0  0 0 1 0 => found shift, select red for rhs
+Search shift for boxx34 1 4  1 1  0 0 1 -1 => found shift, select red for rhs
+Search shift for box 1 8  1 0  0 0 0 1 => found shift, select red for rhs
+Search shift for boxx23 1 8  1 0  0 0 0 1 => found shift, select red for rhs
+Search shift for boxx34 1 8  1 0  0 0 0 1 => found shift, select red for rhs
+Search shift for box 2 3  2 0  1 1 0 0 => found shift, select red for rhs
+Search shift for box 2 3  2 1  1 1 -1 0 => found shift, select red for rhs
+Search shift for box 2 3  2 1  1 1 0 -1 => found shift, select red for rhs
+Search shift for boxx12x34 2 3  2 0  1 1 0 0 => found shift, select red for rhs
+Search shift for boxx12x34 2 3  2 1  1 1 -1 0 => found shift, select red for rhs
+Search shift for boxx12x34 2 3  2 1  1 1 0 -1 => found shift, select red for rhs
+Search shift for boxx12 2 3  2 0  1 1 0 0 => found shift, select red for rhs
+Search shift for boxx12 2 3  2 1  1 1 -1 0 => found shift, select red for rhs
+Search shift for boxx12 2 3  2 1  1 1 0 -1 => found shift, select red for rhs
+Search shift for boxx132 2 3  2 0  1 1 0 0 => found shift, select red for rhs
+Search shift for boxx132 2 3  2 1  1 1 -1 0 => found shift, select red for rhs
+Search shift for boxx132 2 3  2 1  1 1 0 -1 => found shift, select red for rhs
+Search shift for boxx132 2 3  2 2  1 1 -1 -1 => found shift, select red for rhs
+Search shift for boxx132 2 3  2 2  1 1 0 -2 => found shift, select red for rhs
+Search shift for boxx23 2 3  2 0  1 1 0 0 => found shift, select red for rhs
+Search shift for boxx23 2 3  2 1  1 1 -1 0 => found shift, select red for rhs
+Search shift for boxx23 2 3  2 1  1 1 0 -1 => found shift, select red for rhs
+Search shift for boxx234 2 3  2 0  1 1 0 0 => found shift, select red for rhs
+Search shift for boxx234 2 3  2 1  1 1 0 -1 => found shift, select red for rhs
+Search shift for boxx34 2 3  2 0  1 1 0 0 => found shift, select red for rhs
+Search shift for boxx34 2 3  2 1  1 1 -1 0 => found shift, select red for rhs
+Search shift for boxx34 2 3  2 1  1 1 0 -1 => found shift, select red for rhs
+Search shift for boxx34 2 3  2 2  1 1 -1 -1 => found shift, select red for rhs
+Search shift for boxx34 2 3  2 2  1 1 0 -2 => found shift, select red for rhs
+Search shift for box 2 5  2 0  1 0 1 0 => none
+Search shift for box 2 5  2 1  1 -1 1 0 => none
+Search shift for box 2 5  2 1  1 0 1 -1 => none
+Search shift for boxx12x34 2 5  2 0  1 0 1 0 => found shift, select red for rhs
+Search shift for boxx12x34 2 5  2 1  1 -1 1 0 => found shift, select red for rhs
+Search shift for boxx12x34 2 5  2 1  1 0 1 -1 => found shift, select red for rhs
+Search shift for boxx12 2 5  2 0  1 0 1 0 => none
+Search shift for boxx12 2 5  2 1  1 -1 1 0 => none
+Search shift for boxx12 2 5  2 1  1 0 1 -1 => none
+Search shift for boxx132 2 5  2 0  1 0 1 0 => found shift, select red for rhs
+Search shift for boxx132 2 5  2 1  1 -1 1 0 => found shift, select red for rhs
+Search shift for boxx132 2 5  2 1  1 0 1 -1 => found shift, select red for rhs
+Search shift for boxx132 2 5  2 2  1 0 1 -2 => found shift, select red for rhs
+Search shift for boxx23 2 5  2 0  1 0 1 0 => found shift, select red for rhs
+Search shift for boxx23 2 5  2 1  1 -1 1 0 => found shift, select red for rhs
+Search shift for boxx23 2 5  2 1  1 0 1 -1 => found shift, select red for rhs
+Search shift for boxx234 2 5  2 0  1 0 1 0 => found shift, select red for rhs
+Search shift for boxx234 2 5  2 1  1 -1 1 0 => found shift, select red for rhs
+Search shift for boxx234 2 5  2 1  1 0 1 -1 => found shift, select red for rhs
+Search shift for boxx34 2 5  2 0  1 0 1 0 => found shift, select red for rhs
+Search shift for boxx34 2 5  2 1  1 -1 1 0 => found shift, select red for rhs
+Search shift for boxx34 2 5  2 1  1 0 1 -1 => found shift, select red for rhs
+Search shift for boxx34 2 5  2 2  1 0 1 -2 => found shift, select red for rhs
+Search shift for box 2 6  2 0  0 1 1 0 => found shift, select red for rhs
+Search shift for box 2 6  2 1  -1 1 1 0 => found shift, select red for rhs
+Search shift for box 2 6  2 1  0 1 1 -1 => found shift, select red for rhs
+Search shift for boxx12x34 2 6  2 0  0 1 1 0 => found shift, select red for rhs
+Search shift for boxx12x34 2 6  2 1  -1 1 1 0 => found shift, select red for rhs
+Search shift for boxx12x34 2 6  2 1  0 1 1 -1 => found shift, select red for rhs
+Search shift for boxx12 2 6  2 0  0 1 1 0 => found shift, select red for rhs
+Search shift for boxx12 2 6  2 1  0 1 1 -1 => found shift, select red for rhs
+Search shift for boxx132 2 6  2 0  0 1 1 0 => found shift, select red for rhs
+Search shift for boxx132 2 6  2 1  -1 1 1 0 => found shift, select red for rhs
+Search shift for boxx132 2 6  2 1  0 1 1 -1 => found shift, select red for rhs
+Search shift for boxx132 2 6  2 2  -1 1 1 -1 => found shift, select red for rhs
+Search shift for boxx132 2 6  2 2  0 1 1 -2 => found shift, select red for rhs
+Search shift for boxx23 2 6  2 0  0 1 1 0 => found shift, select red for rhs
+Search shift for boxx23 2 6  2 1  -1 1 1 0 => found shift, select red for rhs
+Search shift for boxx23 2 6  2 1  0 1 1 -1 => found shift, select red for rhs
+Search shift for boxx234 2 6  2 0  0 1 1 0 => found shift, select red for rhs
+Search shift for boxx234 2 6  2 1  -1 1 1 0 => found shift, select red for rhs
+Search shift for boxx234 2 6  2 1  0 1 1 -1 => found shift, select red for rhs
+Search shift for boxx34 2 6  2 0  0 1 1 0 => found shift, select red for rhs
+Search shift for boxx34 2 6  2 1  -1 1 1 0 => found shift, select red for rhs
+Search shift for boxx34 2 6  2 1  0 1 1 -1 => found shift, select red for rhs
+Search shift for boxx34 2 6  2 2  -1 1 1 -1 => found shift, select red for rhs
+Search shift for boxx34 2 6  2 2  0 1 1 -2 => found shift, select red for rhs
+Search shift for box 2 9  2 0  1 0 0 1 => found shift, select red for rhs
+Search shift for boxx23 2 9  2 0  1 0 0 1 => found shift, select red for rhs
+Search shift for boxx23 2 9  2 1  1 -1 0 1 => found shift, select red for rhs
+Search shift for boxx23 2 9  2 1  1 0 -1 1 => found shift, select red for rhs
+Search shift for boxx34 2 9  2 0  1 0 0 1 => found shift, select red for rhs
+Search shift for box 2 10  2 0  0 1 0 1 => found shift, select red for rhs
+Search shift for box 2 10  2 1  -1 1 0 1 => found shift, select red for rhs
+Search shift for box 2 10  2 1  0 1 -1 1 => found shift, select red for rhs
+Search shift for boxx23 2 10  2 0  0 1 0 1 => found shift, select red for rhs
+Search shift for boxx23 2 10  2 1  -1 1 0 1 => found shift, select red for rhs
+Search shift for boxx23 2 10  2 1  0 1 -1 1 => found shift, select red for rhs
+Search shift for boxx34 2 10  2 0  0 1 0 1 => found shift, select red for rhs
+Search shift for boxx34 2 10  2 1  -1 1 0 1 => found shift, select red for rhs
+Search shift for boxx34 2 10  2 1  0 1 -1 1 => found shift, select red for rhs
+Search shift for box 2 12  2 0  0 0 1 1 => found shift, select red for rhs
+Search shift for box 2 12  2 1  -1 0 1 1 => found shift, select red for rhs
+Search shift for box 2 12  2 1  0 -1 1 1 => found shift, select red for rhs
+Search shift for boxx23 2 12  2 0  0 0 1 1 => found shift, select red for rhs
+Search shift for boxx34 2 12  2 0  0 0 1 1 => found shift, select red for rhs
+Search shift for boxx34 2 12  2 1  -1 0 1 1 => found shift, select red for rhs
+Search shift for boxx34 2 12  2 1  0 -1 1 1 => found shift, select red for rhs
+Search shift for box 3 7  3 0  1 1 1 0 => none
+Search shift for box 3 7  3 1  1 1 1 -1 => none
+Search shift for box 3 7  3 2  1 1 1 -2 => none
+Search shift for boxx12x34 3 7  3 0  1 1 1 0 => found shift, select red for rhs
+Search shift for boxx12x34 3 7  3 1  1 1 1 -1 => found shift, select red for rhs
+Search shift for boxx12x34 3 7  3 2  1 1 1 -2 => found shift, select red for rhs
+Search shift for boxx12 3 7  3 0  1 1 1 0 => none
+Search shift for boxx12 3 7  3 1  1 1 1 -1 => none
+Search shift for boxx12 3 7  3 2  1 1 1 -2 => none
+Search shift for boxx132 3 7  3 0  1 1 1 0 => found shift, select red for rhs
+Search shift for boxx132 3 7  3 1  1 1 1 -1 => found shift, select red for rhs
+Search shift for boxx132 3 7  3 2  1 1 1 -2 => found shift, select red for rhs
+Search shift for boxx132 3 7  3 3  1 1 1 -3 => found shift, select red for rhs
+Search shift for boxx23 3 7  3 0  1 1 1 0 => found shift, select red for rhs
+Search shift for boxx23 3 7  3 1  1 1 1 -1 => found shift, select red for rhs
+Search shift for boxx234 3 7  3 0  1 1 1 0 => found shift, select red for rhs
+Search shift for boxx234 3 7  3 1  1 1 1 -1 => found shift, select red for rhs
+Search shift for boxx234 3 7  3 2  1 1 1 -2 => found shift, select red for rhs
+Search shift for boxx34 3 7  3 0  1 1 1 0 => found shift, select red for rhs
+Search shift for boxx34 3 7  3 1  1 1 1 -1 => found shift, select red for rhs
+Search shift for boxx34 3 7  3 2  1 1 1 -2 => found shift, select red for rhs
+Search shift for boxx34 3 7  3 3  1 1 1 -3 => found shift, select red for rhs
+Search shift for box 3 11  3 0  1 1 0 1 => found shift, select red for rhs
+Search shift for box 3 11  3 1  1 1 -1 1 => found shift, select red for rhs
+Search shift for boxx23 3 11  3 0  1 1 0 1 => found shift, select red for rhs
+Search shift for boxx23 3 11  3 1  1 1 -1 1 => found shift, select red for rhs
+Search shift for boxx23 3 11  3 2  1 1 -2 1 => found shift, select red for rhs
+Search shift for boxx34 3 11  3 0  1 1 0 1 => found shift, select red for rhs
+Search shift for boxx34 3 11  3 1  1 1 -1 1 => found shift, select red for rhs
+Search shift for box 3 13  3 0  1 0 1 1 => found shift, select red for rhs
+Search shift for box 3 13  3 1  1 -1 1 1 => found shift, select red for rhs
+Search shift for boxx23 3 13  3 0  1 0 1 1 => found shift, select red for rhs
+Search shift for boxx23 3 13  3 1  1 -1 1 1 => found shift, select red for rhs
+Search shift for boxx34 3 13  3 0  1 0 1 1 => found shift, select red for rhs
+Search shift for boxx34 3 13  3 1  1 -1 1 1 => found shift, select red for rhs
+Search shift for box 3 14  3 0  0 1 1 1 => found shift, select red for rhs
+Search shift for box 3 14  3 1  -1 1 1 1 => found shift, select red for rhs
+Search shift for box 3 14  3 2  -2 1 1 1 => found shift, select red for rhs
+Search shift for boxx23 3 14  3 0  0 1 1 1 => found shift, select red for rhs
+Search shift for boxx23 3 14  3 1  -1 1 1 1 => found shift, select red for rhs
+Search shift for boxx34 3 14  3 0  0 1 1 1 => found shift, select red for rhs
+Search shift for boxx34 3 14  3 1  -1 1 1 1 => found shift, select red for rhs
+Search shift for boxx34 3 14  3 2  -2 1 1 1 => found shift, select red for rhs
+Search shift for box 4 15  4 0  1 1 1 1 => none
+Search shift for boxx23 4 15  4 0  1 1 1 1 => found shift, select red for rhs
+Search shift for boxx34 4 15  4 0  1 1 1 1 => found shift, select red for rhs
+Selecting: box 2 5  2 0  1 0 1 0
+Selecting: box 2 5  2 1  1 -1 1 0
+Selecting: box 2 5  2 1  1 0 1 -1
+Construct solution for: boxx12 2 5  2 0  1 0 1 0 from result of box 2 5  2 0  1 0 1 0 via crossing
+Selecting: box 2 5  2 0  1 0 1 0
+Construct solution for: boxx12 2 5  2 1  1 -1 1 0 from result of box 2 5  2 1  1 -1 1 0 via crossing
+Selecting: box 2 5  2 1  1 -1 1 0
+Construct solution for: boxx12 2 5  2 1  1 0 1 -1 from result of box 2 5  2 1  1 0 1 -1 via crossing
+Selecting: box 2 5  2 1  1 0 1 -1
+Construct solution for: boxx12 2 5  2 2  1 0 1 -2 from result of box 2 5  2 2  1 0 1 -2 via crossing
+Selecting: box 2 5  2 2  1 0 1 -2
+Construct solution for: boxx1234 2 5  2 0  1 0 1 0 from result of box 2 5  2 0  1 0 1 0 via crossing
+Selecting: box 2 5  2 0  1 0 1 0
+Construct solution for: boxx1234 2 5  2 1  1 -1 1 0 from result of box 2 5  2 1  1 -1 1 0 via crossing
+Selecting: box 2 5  2 1  1 -1 1 0
+Construct solution for: boxx1234 2 5  2 1  1 0 1 -1 from result of box 2 5  2 1  1 0 1 -1 via crossing
+Selecting: box 2 5  2 1  1 0 1 -1
+Construct solution for: boxx1234 2 5  2 2  1 0 1 -2 from result of box 2 5  2 2  1 0 1 -2 via crossing
+Selecting: box 2 5  2 2  1 0 1 -2
+Selecting: box 3 7  3 0  1 1 1 0
+Selecting: box 3 7  3 1  1 1 1 -1
+Selecting: box 3 7  3 2  1 1 1 -2
+Construct solution for: boxx12 3 7  3 0  1 1 1 0 from result of box 3 7  3 0  1 1 1 0 via crossing
+Selecting: box 3 7  3 0  1 1 1 0
+Construct solution for: boxx12 3 7  3 1  1 1 1 -1 from result of box 3 7  3 1  1 1 1 -1 via crossing
+Selecting: box 3 7  3 1  1 1 1 -1
+Construct solution for: boxx12 3 7  3 2  1 1 1 -2 from result of box 3 7  3 2  1 1 1 -2 via crossing
+Selecting: box 3 7  3 2  1 1 1 -2
+Construct solution for: boxx12 3 7  3 3  1 1 1 -3 from result of box 3 7  3 3  1 1 1 -3 via crossing
+Selecting: box 3 7  3 3  1 1 1 -3
+Construct solution for: boxx1234 3 7  3 0  1 1 1 0 from result of box 3 7  3 0  1 1 1 0 via crossing
+Selecting: box 3 7  3 0  1 1 1 0
+Construct solution for: boxx1234 3 7  3 1  1 1 1 -1 from result of box 3 7  3 1  1 1 1 -1 via crossing
+Selecting: box 3 7  3 1  1 1 1 -1
+Construct solution for: boxx1234 3 7  3 2  1 1 1 -2 from result of box 3 7  3 2  1 1 1 -2 via crossing
+Selecting: box 3 7  3 2  1 1 1 -2
+Construct solution for: boxx1234 3 7  3 3  1 1 1 -3 from result of box 3 7  3 3  1 1 1 -3 via crossing
+Selecting: box 3 7  3 3  1 1 1 -3
+Selecting: box 4 15  4 0  1 1 1 1
+Construct solution for: boxx12 4 15  4 0  1 1 1 1 from result of box 4 15  4 0  1 1 1 1 via crossing
+Selecting: box 4 15  4 0  1 1 1 1
+Construct solution for: boxx123 4 15  4 0  1 1 1 1 from result of box 4 15  4 0  1 1 1 1 via crossing
+Selecting: box 4 15  4 0  1 1 1 1
+Need reductions for 3 different sectors
+Searching integrals from sector (box:2:5)
+Reading ./reductions/reduction_box_2_5
+box 2 5  2 1  1 -1 1 0: found reduction
+box 2 5  2 1  1 0 1 -1: found reduction
+box 2 5  2 2  1 0 1 -2: found reduction
+  time to read reductions:   0.00250209 s
+  time to search reductions: 0.000619625 s
+box 2 5  2 0  1 0 1 0: no reduction
+boxx12 2 5  2 0  1 0 1 0: no reduction
+boxx1234 2 5  2 0  1 0 1 0: no reduction
+Searching integrals from sector (box:3:7)
+Reading ./reductions/reduction_box_3_7
+box 3 7  3 0  1 1 1 0: found reduction
+box 3 7  3 1  1 1 1 -1: found reduction
+box 3 7  3 2  1 1 1 -2: found reduction
+box 3 7  3 3  1 1 1 -3: found reduction
+  time to read reductions:   0.000908884 s
+  time to search reductions: 0.000892398 s
+Searching integrals from sector (box:4:15)
+Reading ./reductions/reduction_box_4_15
+  time to read reductions:   0.000285271 s
+  time to search reductions: 1.7755e-05 s
+box 4 15  4 0  1 1 1 1: no reduction
+boxx12 4 15  4 0  1 1 1 1: no reduction
+boxx123 4 15  4 0  1 1 1 1: no reduction
+Output written to file "mytmp/PPh-sq-all-0r1v.prered.amp"
+Couldn't find solutions for 6 (selected) integral(s)
+
+Some solutions were constructed on the fly via a shift symmetry
+or a crossing. It is recommended to run the job reduce_files on
+the output file to ensure fully reduced solutions.
+
+Job done (total time: 0 s)

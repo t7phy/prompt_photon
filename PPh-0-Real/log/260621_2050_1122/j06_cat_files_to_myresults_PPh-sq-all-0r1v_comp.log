@@ -1,0 +1,16 @@
+
+Date: Sun Jun 21 20:50:13 2026
+
+
+conditional: false
+input_files:
+  - myresults/PPh-sq-qqb-g-0r1v.comp
+  - myresults/PPh-sq-gqb-qb-0r1v.comp
+output_file: myresults/PPh-sq-all-0r1v.comp
+delete_input_files: false
+
+Reading file myresults/PPh-sq-qqb-g-0r1v.comp
+Reading file myresults/PPh-sq-gqb-qb-0r1v.comp
+Output written to myresults/PPh-sq-all-0r1v.comp
+
+Job done (total time: 0 s)

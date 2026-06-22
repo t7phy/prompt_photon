@@ -1,0 +1,16 @@
+
+Date: Sun Jun 21 20:50:13 2026
+
+
+conditional: false
+input_file: myresults/PPh-sq-all-0r1v.comp
+output_file: myresults/PPh-sq-all-0r1v.comp.integrals
+filter: {r: [0, -1], s: [0, -1]}
+
+Reading file myresults/PPh-sq-all-0r1v.comp
+Assuming file contains linear combinations/equations
+Succeeded to parse the file assuming it contains lin.combs/equations
+  found 174 integrals
+  wrote 174 integral(s) to file myresults/PPh-sq-all-0r1v.comp.integrals
+
+Job done (total time: 0 s)

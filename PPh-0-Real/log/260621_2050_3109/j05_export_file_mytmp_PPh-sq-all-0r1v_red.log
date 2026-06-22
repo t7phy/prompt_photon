@@ -1,0 +1,22 @@
+
+Date: Sun Jun 21 20:50:31 2026
+
+
+conditional: false
+input_file: mytmp/PPh-sq-all-0r1v.red
+output_file: myresults/PPh-sq-all-0r1v.red.mma.inc
+output_format: mma
+preferred_masters_file: ""
+new_parameters: []
+reparametrization_rules: []
+toggle_metric_convention: false
+series_expansion: []
+
+Checking type of input file "mytmp/PPh-sq-all-0r1v.red"
+  file contains linear combinations
+Exporting contents of file 'mytmp/PPh-sq-all-0r1v.red'
+  processing 46563 bytes
+  ..................................................  **************************************************
+Exported to file 'myresults/PPh-sq-all-0r1v.red.mma.inc'
+
+Job done (total time: 0 s)

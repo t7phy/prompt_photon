@@ -1,0 +1,31 @@
+jobs:
+
+# reduce all integrals to master integrals (one loop)
+
+  - select_reductions:
+      input_file: "myresults/PPh-sq-all-0r1v.comp.integrals"
+      output_file: "mytmp/PPh-sq-all-0r1v.prered.amp"
+
+  - reduce_files:
+      equation_files: [ "mytmp/PPh-sq-all-0r1v.prered.amp" ]
+      output_file: "mytmp/PPh-sq-all-0r1v.red.amp"
+
+# insert reduction into diagrams (all)
+
+  - insert_reductions:
+      input_file: "myresults/PPh-sq-all-0r1v.comp"
+      reductions_file: "mytmp/PPh-sq-all-0r1v.red.amp"
+      output_file: "mytmp/PPh-sq-all-0r1v.red"
+
+# collect master integrals
+
+  - collect_integrals:
+      input_file: "mytmp/PPh-sq-all-0r1v.red"
+      output_file: "myresults/PPh-sq-all-0r1v.red.masters" 
+
+# now export all files of interest in Mathematica format:
+
+  - export:
+      input_file: "mytmp/PPh-sq-all-0r1v.red"
+      output_format: "mma"
+      output_file: "myresults/PPh-sq-all-0r1v.red.mma.inc"

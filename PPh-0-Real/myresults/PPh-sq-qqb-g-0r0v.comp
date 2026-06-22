@@ -1,0 +1,16 @@
+name = tmpPPhsqqqbg0r0vcomp1X1
+  tree 0 0  0 0 
+   -t^(-1)*e^2*(-4+4*dim-dim^2)*Color((-1+Nc)*(1+Nc))*g^2*u
+;
+name = tmpPPhsqqqbg0r0vcomp1X2
+  tree 0 0  0 0 
+   -e^2*(-8+6*dim-dim^2)*Color((-1+Nc)*(1+Nc))*g^2
+;
+name = tmpPPhsqqqbg0r0vcomp2X1
+  tree 0 0  0 0 
+   -e^2*(-8+6*dim-dim^2)*Color((-1+Nc)*(1+Nc))*g^2
+;
+name = tmpPPhsqqqbg0r0vcomp2X2
+  tree 0 0  0 0 
+   -t*e^2*(-4+4*dim-dim^2)*Color((-1+Nc)*(1+Nc))*g^2*u^(-1)
+;

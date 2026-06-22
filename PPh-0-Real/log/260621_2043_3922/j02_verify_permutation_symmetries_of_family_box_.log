@@ -1,0 +1,25 @@
+
+Date: Sun Jun 21 20:43:39 2026
+
+Run ID: 7e140b22
+
+verify_permutation_symmetries:
+  conditional: false
+  integralfamily: box
+  abort_on_first_error: true
+  dummy_output_file: ./tmp/permutation_symmetries_verified_for_box
+
+Verifying permutation symmetries of integral family 'box'
+Loading uncrossed integral families from file ./config/integralfamilies.yaml
+Initialize integral family 'tree'
+Loaded integral family tree
+Initialize integral family 'box'
+Loaded integral family box
+Loaded 2 (uncrossed) integral families
+Done loading uncrossed integral families
+All permutation symmetries verified
+
+Complete permutation symmetries of integral family 'box'
+
+Job done (total time: 0 s)
+

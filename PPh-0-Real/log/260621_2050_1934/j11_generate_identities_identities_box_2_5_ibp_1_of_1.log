@@ -1,0 +1,26 @@
+
+Date: Sun Jun 21 20:50:19 2026
+
+
+conditional: false
+input_file: ./tmp/box_2_5/seeds/seeds_box_2_5_ibp
+output_file: ./tmp/box_2_5/identities/identities_box_2_5_ibp_1_of_1
+type: ibp
+options:
+  transform_integrals_to_equivalent: true
+  solve_equations: true
+  set_subsectors_to_zero: false
+  eliminate_subsectors_by_shift: true
+  map_on_coeff: []
+from: 1
+to: 1000
+
+  Adjusting last integral 1000 to 150
+  Generating identities of type ibp: identities_box_2_5_ibp_1_of_1
+  identities from 150 seeds, range: [1, 150]
+  ..................................................Loaded only default generic IBP and LI identities
+  **************************************************
+  Identities generated: 600 (time: 1.0 s)
+  Average number of integrals per equation: 6
+
+Job done (total time: 1 s)

@@ -1,0 +1,44 @@
+---
+diagram:
+  process_name: PPh-gqb-qb-0r0v.qgraf
+  name: 1
+  external_legs:
+    - [[-1, 1], {in-gluon: [[gluon, 1, 1, p1, 0, -1]]}]
+    - [[-2, 1], {in-qbar1: [[qbar1, 1, -1, p2, 0, -2]]}]
+    - [[2, -3], {out-photon: [[photon, 2, 1, p2-px+p1, 0, -3]]}]
+    - [[2, -4], {out-qbar1: [[qbar1, 2, -1, px, 0, -4]]}]
+  propagators:
+    - [[2, 1], {quark1_qbar1: [[quark1, 3, -1, -p2-p1, 0, 1], [qbar1, 3, -1, p2+p1, 0, 2]]}]
+  vertices:
+    - [{qbar1_gluon_quark1: [[qbar1, 1, -1, p2, 0, -2], [gluon, 1, 1, p1, 0, -1], [quark1, 3, -1, -p2-p1, 0, 1]]}]
+    - [{qbar1_photon_quark1: [[qbar1, 3, -1, p2+p1, 0, 2], [photon, 2, 1, -p2+px-p1, 0, -3], [quark1, 2, -1, -px, 0, -4]]}]
+  symmetry_factor: -1
+  num_legs_in: 2
+  num_legs_out: 2
+  num_loops: 0
+  num_propagators: 1
+  num_vertices: 2
+  loop_momenta: []
+  sector: [tree, 0]
+---
+diagram:
+  process_name: PPh-gqb-qb-0r0v.qgraf
+  name: 2
+  external_legs:
+    - [[-1, 1], {in-gluon: [[gluon, 1, 1, p1, 0, -1]]}]
+    - [[-2, 2], {in-qbar1: [[qbar1, 1, -1, p2, 0, -2]]}]
+    - [[2, -3], {out-photon: [[photon, 2, 1, p2-px+p1, 0, -3]]}]
+    - [[1, -4], {out-qbar1: [[qbar1, 2, -1, px, 0, -4]]}]
+  propagators:
+    - [[1, 2], {quark1_qbar1: [[quark1, 3, -1, -px+p1, 0, 1], [qbar1, 3, -1, px-p1, 0, 2]]}]
+  vertices:
+    - [{qbar1_gluon_quark1: [[qbar1, 3, -1, px-p1, 0, 2], [gluon, 1, 1, p1, 0, -1], [quark1, 2, -1, -px, 0, -4]]}]
+    - [{qbar1_photon_quark1: [[qbar1, 1, -1, p2, 0, -2], [photon, 2, 1, -p2+px-p1, 0, -3], [quark1, 3, -1, -px+p1, 0, 1]]}]
+  symmetry_factor: -1
+  num_legs_in: 2
+  num_legs_out: 2
+  num_loops: 0
+  num_propagators: 1
+  num_vertices: 2
+  loop_momenta: []
+  sector: [tree, 0]

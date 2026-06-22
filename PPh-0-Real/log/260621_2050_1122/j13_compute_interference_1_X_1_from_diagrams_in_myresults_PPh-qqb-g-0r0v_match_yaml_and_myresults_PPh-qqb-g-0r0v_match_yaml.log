@@ -1,0 +1,126 @@
+
+Date: Sun Jun 21 20:50:11 2026
+
+
+conditional: false
+diagrams_file1: myresults/PPh-qqb-g-0r0v.match.yaml
+diagrams_file2: myresults/PPh-qqb-g-0r0v.match.yaml
+position1: 1
+position2: 1
+output_file: ./tmp/PPh-sq-qqb-g-0r0v.comp_1X1
+result_name: 1 X 1 from diagrams in myresults/PPh-qqb-g-0r0v.match.yaml and myresults/PPh-qqb-g-0r0v.match.yaml
+polarization_orthogonal_vectors:
+
+
+Reading two diagrams
+Reading diagram number 1 from file myresults/PPh-qqb-g-0r0v.match.yaml
+rename negative field indices
+Reading diagram number 1 from file myresults/PPh-qqb-g-0r0v.match.yaml
+rename negative field indices
+Generating amplitudes
+  using Feynman polarizations everywhere
+Generic Feynman rule inserted for identifier in-Ghost (1): polc_ghost(fv(mom1),mass1).[a1,Na,Nc]
+Generic Feynman rule inserted for identifier in-electron (2): u(fv(mom1),mass1).0
+Generic Feynman rule inserted for identifier in-ghost (3): pol_ghost(fv(mom1),mass1).[a1,Na,Nc]
+Generic Feynman rule inserted for identifier in-gluon (4): pol_gluon(fv(mom1),mass1,fv(ortho1)).mu1.[a1,Na,Nc]
+Generic Feynman rule inserted for identifier in-photon (5): pol_photon(fv(mom1),mass1).mu1
+Generic Feynman rule inserted for identifier in-positron (6): vbar(fv(mom1),mass1).0
+Generic Feynman rule inserted for identifier in-qbar1 (7): vbar(fv(mom1),mass1).i1
+Generic Feynman rule inserted for identifier in-qbar2 (8): vbar(fv(mom1),mass1).i1
+Generic Feynman rule inserted for identifier in-quark1 (9): u(fv(mom1),mass1).i1
+Generic Feynman rule inserted for identifier in-quark2 (10): u(fv(mom1),mass1).i1
+Generic Feynman rule inserted for identifier out-Ghost (11): pol_ghost(fv(mom1),mass1).[a1,Na,Nc]
+Generic Feynman rule inserted for identifier out-electron (12): ubar(fv(mom1),mass1).0
+Generic Feynman rule inserted for identifier out-ghost (13): polc_ghost(fv(mom1),mass1).[a1,Na,Nc]
+Generic Feynman rule inserted for identifier out-gluon (14): polc_gluon(fv(mom1),mass1,fv(ortho1)).mu1.[a1,Na,Nc]
+Generic Feynman rule inserted for identifier out-photon (15): polc_photon(fv(mom1),mass1).mu1
+Generic Feynman rule inserted for identifier out-positron (16): v(fv(mom1),mass1).0
+Generic Feynman rule inserted for identifier out-qbar1 (17): v(fv(mom1),mass1).i1
+Generic Feynman rule inserted for identifier out-qbar2 (18): v(fv(mom1),mass1).i1
+Generic Feynman rule inserted for identifier out-quark1 (19): ubar(fv(mom1),mass1).i1
+Generic Feynman rule inserted for identifier out-quark2 (20): ubar(fv(mom1),mass1).i1
+Generic Feynman rule inserted for identifier electron_positron (21): I*(ONE*mass1+fv(mom1)\)*Prop(mom1,mass1^2)
+Generic Feynman rule inserted for identifier ghost_Ghost (22): I*delta.[a1,Na,Nc].[a2,Na,Nc]*Prop(mom1,0)
+Generic Feynman rule inserted for identifier gluon_gluon (23): -I*delta.[a1,Na,Nc].[a2,Na,Nc]*eta.mu2.mu1*Prop(mom1,0)
+Generic Feynman rule inserted for identifier photon_photon (24): -I*eta.mu2.mu1*Prop(mom1,0)
+Generic Feynman rule inserted for identifier quark1_qbar1 (25): I*(ONE*mass1+fv(mom1)\)*Prop(mom1,mass1^2)*delta.i2.i1
+Generic Feynman rule inserted for identifier quark2_qbar2 (26): I*(ONE*mass1+fv(mom1)\)*Prop(mom1,mass1^2)*delta.i2.i1
+Generic Feynman rule inserted for identifier Ghost_gluon_ghost (27): sunf.[a1,Na,Nc].[a2,Na,Nc].[a3,Na,Nc]*fv(mom1)~mu2*g
+Generic Feynman rule inserted for identifier gluon_gluon_gluon (28): sunf.[a1,Na,Nc].[a2,Na,Nc].[a3,Na,Nc]*(eta~mu3~mu1*fv(mom3-mom1)~mu2+eta~mu2~mu3*fv(mom2-mom3)~mu1+fv(-mom2+mom1)~mu3*eta~mu2~mu1)*g
+Generic Feynman rule inserted for identifier gluon_gluon_gluon_gluon (29): I*(sunf.[a2,Na,Nc].[a4,Na,Nc].[symbol953,Na,Nc]*sunf.[a1,Na,Nc].[a3,Na,Nc].[symbol953,Na,Nc]*metricl4~mu3~mu2~mu1~mu4-metricl4~mu2~mu4~mu1~mu3*sunf.[a1,Na,Nc].[a2,Na,Nc].[symbol952,Na,Nc]*sunf.[a3,Na,Nc].[a4,Na,Nc].[symbol952,Na,Nc]+sunf.[a2,Na,Nc].[a3,Na,Nc].[symbol954,Na,Nc]*sunf.[a1,Na,Nc].[a4,Na,Nc].[symbol954,Na,Nc]*metricl4~mu4~mu2~mu1~mu3)*g^2
+Generic Feynman rule inserted for identifier positron_photon_electron (30): I*e*gamma~mu2
+Generic Feynman rule inserted for identifier qbar1_gluon_quark1 (31): I*sunt.[a2,Na,Nc].i1.i3*gamma~mu2*g
+Generic Feynman rule inserted for identifier qbar1_photon_quark1 (32): I*delta.i3.i1*e*gamma~mu2
+Generic Feynman rule inserted for identifier qbar2_gluon_quark2 (33): I*sunt.[a2,Na,Nc].i1.i3*gamma~mu2*g
+Generic Feynman rule inserted for identifier qbar2_photon_quark2 (34): I*delta.i3.i1*e*gamma~mu2
+insert polarization sum U(mom,mass,i1) * Ubar(mom,mass,i2) == (GaS(mom) + mass * GaOne(1)) * delta_f(i1,i2)
+insert polarization sum V(mom,mass,i1) * Vbar(mom,mass,i2) == (GaS(mom) - mass * GaOne(1)) * delta_f(i1,i2)
+insert polarization sum Pol_photon(mom,mass,mu1) * PolC_photon(mom,mass,mu2) == -metric_l(mu1, mu2)
+insert polarization sum Pol_ghost(mom,mass,a1) * PolC_ghost(mom,mass,a2) == I*delta_a(a1,a2)
+insert polarization sum Pol_gluon(mom,mass,mu1,a1,0) * PolC_gluon(mom,mass,mu2,a2,0) == -delta_a(a1,a2) * metric_l(mu1,mu2)
+insert polarization sum Pol_gluon(mom,mass,mu1,a1,ortho) * PolC_gluon(mom,mass,mu2,a2,ortho) == delta_a(a1,a2) * ( - metric_l(mu1,mu2) + ( Mom(mom,mu1) * Mom(ortho,mu2) + Mom(ortho,mu1) * Mom(mom,mu2) ) / SP(mom,ortho) + SP(ortho,ortho) * Mom(mom,mu1) * Mom(mom,mu2) / SP(mom,ortho)^2 )
+read key 'feynmanrules' in file './config/feynmanrules.yaml'
+Requested Feynman rule: vbar(fv(p2),0).i2
+Requested Feynman rule: I*sunt.[a4,Na,Nc].i2.i-1*gamma~mu4*g
+Requested Feynman rule: I*delta.i-2.i-1*Prop(-p2+px,0)*fv(-p2+px)\
+Requested Feynman rule: I*e*delta.i1.i-2*gamma~mu3
+Requested Feynman rule: u(fv(p1),0).i1
+Requested Feynman rule: polc_gluon(fv(px),0,fv(0)).mu4.[a4,Na,Nc]
+Requested Feynman rule: polc_photon(fv(p2-px+p1),0).mu3
+Requested Feynman rule: vbar(fv(p2),0).i2
+Requested Feynman rule: I*gamma~mu4*sunt.[a4,Na,Nc].i2.i-1*g
+Requested Feynman rule: I*delta.i-1.i-2*Prop(-p2+px,0)*fv(-p2+px)\
+Requested Feynman rule: I*e*delta.i1.i-2*gamma~mu3
+Requested Feynman rule: u(fv(p1),0).i1
+Requested Feynman rule: polc_gluon(fv(px),0,fv(0)).mu4.[a4,Na,Nc]
+Requested Feynman rule: polc_photon(fv(p2-px+p1),0).mu3
+Multiplying amplitudes
+First amplitude:
+Amplitude 1
+Open fermion lines:
+Line: 0
+vbar(fv(p2),0).i2 * -I*(gamma~mu4*fv(-p2+px)\*gamma~mu3)*delta.i-2.i-1*e*Prop(-p2+px,0)*sunt.[a4,Na,Nc].i2.i-1*delta.i1.i-2*g * u(fv(p1),0).i1
+Closed fermion lines:
+External:
+[polc_gluon(fv(px),0,fv(0)).mu4.[a4,Na,Nc],polc_photon(fv(p2-px+p1),0).mu3]
+Remaining Term:
+1
+
+Second amplitude (already conjugated):
+Amplitude 1
+Open fermion lines:
+Line: 0
+ubar(fv(p1),0).symbol1001 * I*(gamma~symbol1009*fv(-p2+px)\*gamma~symbol1010)*e*Prop(-p2+px,0)*delta.symbol1001.symbol1000*delta.symbol999.symbol1000*sunt.[symbol998,Na,Nc].symbol999.symbol1002*g * v(fv(p2),0).symbol1002
+Closed fermion lines:
+External:
+[pol_photon(fv(p2-px+p1),0).symbol1009,pol_gluon(fv(px),0,fv(0)).symbol1010.[symbol998,Na,Nc]]
+Remaining Term:
+1
+
+using Feynman gluon polarization sum for pol_gluon(fv(px),0,fv(0)).symbol1010.[symbol998,Na,Nc]*polc_gluon(fv(px),0,fv(0)).mu4.[a4,Na,Nc]
+Calculation of Amplitude 1_X_1 requested
+ * Extracting scalar prefactor
+   found scalar prefactor: e^2*Prop(-p2+px,0)^2*g^2
+ * Calculating the Color structure
+color: eta.mu3.symbol1009*delta.i-2.i-1*delta.[a4,Na,Nc].[symbol998,Na,Nc]*delta.i1.symbol1001*delta.symbol1001.symbol1000*delta.i2.symbol1002*sunt.[a4,Na,Nc].i2.i-1*delta.symbol999.symbol1000*sunt.[symbol998,Na,Nc].symbol999.symbol1002*delta.i1.i-2*eta.mu4.symbol1010
+ * Color structures: 
+<Color({sunt.[symbol998,Na,Nc].symbol1002.symbol1001,sunt.[symbol998,Na,Nc].symbol1001.symbol1002})>
+number 1
+   color result (degree Nc^2): Color({sunt.[symbol998,Na,Nc].symbol1002.symbol1001,sunt.[symbol998,Na,Nc].symbol1001.symbol1002}) == 1/2*Color((-1+Nc)*(1+Nc))
+ * Color structure calculated! Time: 0.000548821s
+   Color order: Nc^2
+ * Calculating the Dirac traces
+   performing 1 Dirac trace(s)
+   1 sub trace(s): . time: 0.000843571 s
+
+ * Dirac traces calculated! Time: 0.00107467s
+ * Contracting remaining Lorentz indices
+ * Lorentz indices contracted! Time: 4.9855e-05s
+ * Replacing scalarproducts by invariants and propagators
+   SP: {}
+ * Matching integrals
+ * Scalar products replaced, integrals matched! Time: 0.000447593s
+ * Collecting common factors
+ * Common factors collected ! Time: 0.000118465s
+
+Job done (total time: 0 s)

@@ -1,0 +1,21 @@
+
+Date: Sun Jun 21 20:50:31 2026
+
+
+conditional: false
+equation_files:
+  - ./mytmp/PPh-sq-all-0r1v.prered.amp
+substitution_files:
+  []
+preferred_masters_file: ""
+output_file: ./mytmp/PPh-sq-all-0r1v.red.amp
+reduzer_options:
+  num_equations_per_subjob: 1
+  num_blocks_per_subjob: 1
+  only_substitute: false
+use_full_parallelization: true
+min_workers: 1
+max_workers: 1000
+
+
+Job done (total time: 0 s)
