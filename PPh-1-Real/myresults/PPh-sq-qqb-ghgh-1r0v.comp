@@ -1,0 +1,16 @@
+name = tmpPPhsqqqbghgh1r0vcomp1X1
+  tree 0 0  0 0 
+   -g^4*e^2*t*(2+2*u*s4^(-1)-2*t*dim*s4^(-1)+2*u*tk*s4^(-2)+2*u*t*s4^(-2)-tk*dim*s4^(-1)-t^2*dim*s4^(-2)+2*t*tk*s4^(-2)-u*dim*s4^(-1)+4*t*s4^(-1)+2*tk*s4^(-1)+2*t^2*s4^(-2)-t*tk*dim*s4^(-2)-u*tk*dim*s4^(-2)-dim-u*t*dim*s4^(-2))*(t+tk+s4)^(-2)*Color((1+Nc)*Nc*(-1+Nc))
+;
+name = tmpPPhsqqqbghgh1r0vcomp1X2
+  tree 0 0  0 0 
+   -1/2*g^4*(u+uk+s4)^(-1)*(4*u*t*dim*s4^(-1)-2*u*uk*s4^(-1)-6*u+tk*dim+2*u*tk*dim*s4^(-1)+u*t*tk*dim*s4^(-2)-2*u*t*tk*s4^(-2)+2*t*dim+2*u*t^2*dim*s4^(-2)+t*tk*dim*s4^(-1)-4*uk+u^2*tk*dim*s4^(-2)+u*uk*dim*s4^(-1)+2*u^2*t*dim*s4^(-2)-6*t-2*t^2*s4^(-1)-2*u*uk*t*s4^(-2)+t^2*dim*s4^(-1)-2*u^2*tk*s4^(-2)-2*t*tk*s4^(-1)-4*u^2*t*s4^(-2)+dim*s4+uk*dim+u*uk*t*dim*s4^(-2)-4*tk-8*u*t*s4^(-1)+2*u*dim+u^2*dim*s4^(-1)-4*u*t^2*s4^(-2)-6*u*tk*s4^(-1)+2*uk*t*dim*s4^(-1)-6*uk*t*s4^(-1)-2*uk*t^2*s4^(-2)-4*s4+uk*t^2*dim*s4^(-2)-2*u^2*s4^(-1))*e^2*(t+tk+s4)^(-1)*Color((1+Nc)*Nc*(-1+Nc))
+;
+name = tmpPPhsqqqbghgh1r0vcomp2X1
+  tree 0 0  0 0 
+   -1/2*g^4*(u+uk+s4)^(-1)*(4*u*t*dim*s4^(-1)-2*u*uk*s4^(-1)-6*u+tk*dim+2*u*tk*dim*s4^(-1)+u*t*tk*dim*s4^(-2)-2*u*t*tk*s4^(-2)+2*t*dim+2*u*t^2*dim*s4^(-2)+t*tk*dim*s4^(-1)-4*uk+u^2*tk*dim*s4^(-2)+u*uk*dim*s4^(-1)+2*u^2*t*dim*s4^(-2)-6*t-2*t^2*s4^(-1)-2*u*uk*t*s4^(-2)+t^2*dim*s4^(-1)-2*u^2*tk*s4^(-2)-2*t*tk*s4^(-1)-4*u^2*t*s4^(-2)+dim*s4+uk*dim+u*uk*t*dim*s4^(-2)-4*tk-8*u*t*s4^(-1)+2*u*dim+u^2*dim*s4^(-1)-4*u*t^2*s4^(-2)-6*u*tk*s4^(-1)+2*uk*t*dim*s4^(-1)-6*uk*t*s4^(-1)-2*uk*t^2*s4^(-2)-4*s4+uk*t^2*dim*s4^(-2)-2*u^2*s4^(-1))*e^2*(t+tk+s4)^(-1)*Color((1+Nc)*Nc*(-1+Nc))
+;
+name = tmpPPhsqqqbghgh1r0vcomp2X2
+  tree 0 0  0 0 
+   -u*g^4*(u+uk+s4)^(-2)*(2+2*u^2*s4^(-2)+4*u*s4^(-1)-uk*dim*s4^(-1)+2*uk*s4^(-1)+2*uk*t*s4^(-2)-uk*t*dim*s4^(-2)-u^2*dim*s4^(-2)-t*dim*s4^(-1)+2*u*t*s4^(-2)-2*u*dim*s4^(-1)+2*t*s4^(-1)-u*uk*dim*s4^(-2)-dim-u*t*dim*s4^(-2)+2*u*uk*s4^(-2))*e^2*Color((1+Nc)*Nc*(-1+Nc))
+;

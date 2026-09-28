@@ -1,0 +1,64 @@
+jobs:
+
+# reduce all integrals to master integrals 
+
+  - select_reductions:
+      input_file: "myresults/PPh-sq-all-1r1v.comp.integrals"
+      output_file: "mytmp/PPh-sq-all-1r1v.prered.amp"
+
+  - reduce_files:
+      equation_files: [ "mytmp/PPh-sq-all-1r1v.prered.amp" ]
+      output_file: "mytmp/PPh-sq-all-1r1v.red.amp"
+
+# insert reduction into diagrams (all)
+
+  - insert_reductions:
+      input_file: "myresults/PPh-sq-all-1r1v.comp"
+      reductions_file: "mytmp/PPh-sq-all-1r1v.red.amp"
+      output_file: "mytmp/PPh-sq-all-1r1v.red"
+
+# collect master integrals
+
+  - collect_integrals:
+      input_file: "mytmp/PPh-sq-all-1r1v.red"
+      output_file: "myresults/PPh-sq-all-1r1v.masters" 
+
+# print master integrals
+
+  - print_sector_info:
+      sector_selection: 
+        select_recursively:
+          - [pentagon, 31]
+          - [pentagonx12, 31]
+          - [pentagonx12x45, 31]
+          - [pentagonx124, 31]
+          - [pentagonx1245, 31]
+          - [pentagonx125, 31]
+          - [pentagonx1254, 31]
+          - [pentagonx14, 31]
+          - [pentagonx14x25, 31]
+          - [pentagonx142, 31]
+          - [pentagonx1425, 31]
+          - [pentagonx145, 31]
+          - [pentagonx1452, 31]
+          - [pentagonx15, 31]
+          - [pentagonx15x24, 31]
+          - [pentagonx152, 31]
+          - [pentagonx1524, 31]
+          - [pentagonx154, 31]
+          - [pentagonx1542, 31]
+          - [pentagonx24, 31]
+          - [pentagonx245, 31]
+          - [pentagonx25, 31]
+          - [pentagonx254, 31]
+          - [pentagonx45, 31]
+      config_info_mma_file: "myresults/PPh-sq-all-1r1v.mma.inc"
+      sector_mappings_mma_file: "myresults/PPh-sq-all-1r1v.map.mma.inc"
+      feynman_diagram_mma_file: "myresults/PPh-sq-all-1r1v.red.master.graph.mma.inc"
+
+# now export all files of interest in Mathematica format:
+
+  - export:
+      input_file: "mytmp/PPh-sq-all-1r1v.red"
+      output_format: "mma"
+      output_file: "myresults/PPh-sq-all-1r1v.red.mma.inc"

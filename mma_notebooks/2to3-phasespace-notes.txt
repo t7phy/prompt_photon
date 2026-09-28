@@ -1,0 +1,68 @@
+2 -> 3 real-emission phase-space substitution
+==============================================
+
+Context: Notes-PPh-v01.pdf (L. Vernazza) gives, at Born level (eq. 6-14),
+
+  s = (p1+p2)^2,  t = (p1-pg)^2,  u = (p2-pg)^2,  s4 = s+t+u,
+  t = -pT^2/(w v),  u = -pT^2/(1-v),  s = pT^2/(w v (1-v)),
+
+with s4 = 0 exactly at Born (pX on-shell), and (1-w) the threshold variable
+(w -> 1 is the Born/threshold limit). This matches our Reduze convention
+exactly: at Born, (p2-px)^2 = (p1-pg)^2 = t and (p1-px)^2 = (p2-pg)^2 = u
+(momentum conservation p1+p2=pg+px), so the existing PPh-lo.nb / subs is
+literally eq. (14).
+
+The notes stop there -- they label the real-emission momenta (Fig. 3,
+pg, pX = px+k) but never derive the 2->3 phase space. That's what follows.
+
+Setup
+-----
+Work in the partonic CM frame (p1,p2 back to back, energy^2 = s). Treat the
+recoil pair (px,k) as a single effective particle of invariant mass^2 = s4
+(same s4 as kinematics.yaml, = (px+k)^2). The photon's polar angle relative
+to p1 gives v via cos(theta) = 2v-1 (matches the notes' v exactly: verified
+t(y->0) = -s(1-v), u(y->0) = -s*v, agreeing with eq. 14 at w=1).
+
+Boost the recoil pair's own rest-frame back-to-back split (px,k, energy
+sqrt(s4)/2 each) into the CM frame along the recoil's momentum direction.
+This introduces exactly 2 more angles:
+  y  in [0,1]   : polar angle of the split, cos(theta') = 1-2y
+                  (y=0: px carries the recoil "forward", i.e. Born limit
+                   is y->0 & s4->0 jointly; y=1: same with px<->k)
+  zz in [-1,1]  : cos(relative azimuthal angle) between the photon's
+                  production plane and the recoil-splitting plane
+
+Together (s, s4, v, y, zz) are 5 independent variables for the 5 invariants
+(t, u, tk, uk, s4) -- s4 appears on both sides (it's already a Reduze
+invariant, unchanged).
+
+Result (verified in Mathematica: on-shell px^2=k^2=0, momentum conservation,
+and s+t+u+tk+uk+s4=0 all check out exactly)
+-----------------------------------------------------------------------
+
+  D = 2 Sqrt[ s s4 v (1-v) y (1-y) ]
+
+  t  -> -s (1-v)(1-y) - s4 v y         - D zz
+  u  -> -s v (1-y)     - s4 (1-v) y     + D zz
+  tk -> -s (1-v) y      - s4 v (1-y)    + D zz
+  uk -> -s v y          - s4 (1-v)(1-y) - D zz
+
+Checks
+------
+* s + t + u + tk + uk + s4 = 0                          (exact identity)
+* y -> 0, s4 -> 0 :  t -> -s(1-v), u -> -s v             (Born, eq. 14 at w=1)
+* s4 -> 0 (generic y):  t+tk -> -s(1-v), u+uk -> -s v    (collinear px||k
+                                                           limit recombines
+                                                           to the Born parton,
+                                                           independent of y)
+* w = 1 - s4/(s v)  reproduces the notes' threshold variable exactly.
+
+Caveat
+------
+pT^2 = (s-s4)^2 v(1-v) / s, NOT the naive Born-form extension s*w*v(1-v)
+(these only agree at w=1 / s4=0). Do not reuse the Born pT(s,v,w) relation
+away from threshold.
+
+y and zz are new -- not defined anywhere in Notes-PPh-v01; the labels/ranges
+above are my own choice, physically transparent (recoil-splitting polar and
+azimuthal angle) but not tied to any specific named convention in the notes.

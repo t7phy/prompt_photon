@@ -1,0 +1,27 @@
+digraph pentagon_4_27 {
+  label="pentagon_4_27";
+  rankdir="LR";
+  subgraph edges {
+    -1 -> 2 [label="(p1,0;1)"];
+    -2 -> 4 [label="(p2,0;2)"];
+    3 -> -3 [label="(-px+p1-k+p2,0;3)"];
+    1 -> -4 [label="(px,0;4)"];
+    1 -> -5 [label="(k,0;5)"];
+    4 -> 2 [label="(l,0;6)"];
+    2 -> 1 [label="(p1+l,0;7)"];
+    1 -> 3 [label="(-px+p1+l-k,0;9)"];
+    3 -> 4 [label="(l-p2,0;10)"];
+  }
+  subgraph incoming { rank="source"; -1; -2; }
+  subgraph outgoing { rank="sink"; -3; -4; -5; }
+-5 [shape=point];
+-4 [shape=point];
+-3 [shape=point];
+-2 [shape=point];
+-1 [shape=point];
+1 [shape=point];
+2 [shape=point];
+3 [shape=point];
+4 [shape=point];
+}
+

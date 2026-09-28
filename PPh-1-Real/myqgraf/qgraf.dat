@@ -1,0 +1,34 @@
+************************
+****Output amplitude****
+************************
+
+*output = 'PPh-qqb-gg-1r0v.qgraf.yaml';
+*output = 'PPh-qqb-gg-1r1v.qgraf.yaml';
+
+*output = 'PPh-qqb-ghgh-1r0v.qgraf.yaml';
+*output = 'PPh-qqb-ghgh-1r1v.qgraf.yaml';
+
+*output = 'PPh-gqb-qbg-1r0v.qgraf.yaml';
+output = 'PPh-gqb-qbg-1r1v.qgraf.yaml';
+
+
+************************
+style = 'reduze.sty' ;
+model = 'QCD_reduze';
+
+************************
+
+*in = quark1[p1], qbar1[p2];
+in = gluon[p1], qbar1[p2];
+
+*out = photon[pg],gluon[px],gluon[k];
+*out = photon[pg],ghost[px],Ghost[k];
+
+out = photon[pg],qbar1[px],gluon[k];
+
+
+*loops = 0;
+loops = 1;
+loop_momentum = l;
+options =  onshell, notadpole;
+
